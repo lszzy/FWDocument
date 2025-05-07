@@ -17,7 +17,7 @@
     <a title="SmartPublished Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -1246,13 +1246,16 @@
                 <a href="../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1972,6 +1975,9 @@
                 <a href="../Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2048,9 +2054,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2508,7 +2511,10 @@
                 <a href="../Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="../Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2517,7 +2523,10 @@
                 <a href="../Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="../Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -2717,14 +2726,11 @@
                   
                   <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
 <span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartPublished</span><span class="o">&lt;</span><span class="kt">Value</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span> <span class="k">where</span> <span class="kt">Value</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt">Value</span> <span class="p">:</span> <span class="kt">Encodable</span></code></pre>
-<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">SmartPublished</span><span class="p">:</span> <span class="kt"><a href="../Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">SmartPublished</span><span class="p">:</span> <span class="kt"><a href="../Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a></span></code></pre>
 
                 </div>
               </div>
-            <p>这段代码实现了一个自定义的属性包装器 SmartPublished，
-将Combine 的发布功能与 Codable 的数据序列化能力结合。通过属性包装器简化属性的声明，同时支持相应式编程。
-用于结合 Combine 的功能和编码解码支持。以下是对整个代码的说明。
-projectedValue提供一个发布者，可供订阅。</p>
+            <p>Undocumented</p>
 
           </section>
           <section class="section task-group-section">
@@ -2822,7 +2828,7 @@ projectedValue提供一个发布者，可供订阅。</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The publisher that exposes the wrapped value&rsquo;s changes</p>
 
                       </div>
                       <div class="declaration">
@@ -2836,6 +2842,19 @@ projectedValue提供一个发布者，可供订阅。</p>
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Publisher%20Implementation"></a>
+                <a name="//apple_ref/swift/Section/Publisher Implementation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Publisher%20Implementation"></a>
+                  <h3 class="section-name"><span>Publisher Implementation</span>
+</h3>
+                </div>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -2849,7 +2868,15 @@ projectedValue提供一个发布者，可供订阅。</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The publisher that broadcasts changes to the wrapped value.</p>
+
+<p>Uses CurrentValueSubject which:</p>
+
+<ul>
+<li>Maintains the current value</li>
+<li>Sends current value to new subscribers</li>
+<li>More suitable than PassthroughSubject for property wrapper scenarios</li>
+</ul>
 
                         <a href="../Structs/SmartPublished/Publisher.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2904,11 +2931,7 @@ projectedValue提供一个发布者，可供订阅。</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>这个下标实现了对属性包装器的自定义访问逻辑，用于在包装器内自定义 wrappedValue 的访问和修改行为。
-参数解析：
-observed：观察者，即外部的 ObservableObject 实例。
-wrappedKeyPath：指向被包装值的引用键路径。
-storageKeyPath：指向属性包装器自身的引用键路径。</p>
+                        <p>Custom subscript for property wrapper integration with ObservableObject.</p>
 
                       </div>
                       <div class="declaration">
@@ -2922,6 +2945,49 @@ storageKeyPath：指向属性包装器自身的引用键路径。</p>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Value</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>observed</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The ObservableObject instance containing this property</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>wrappedKeyPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Reference to the wrapped value</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>storageKeyPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Reference to this property wrapper instance</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -2952,7 +3018,7 @@ storageKeyPath：指向属性包装器自身的引用键路径。</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Creates an instance from any value if possible</p>
 
                       </div>
                       <div class="declaration">
@@ -2971,7 +3037,7 @@ storageKeyPath：指向属性包装器自身的引用键路径。</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

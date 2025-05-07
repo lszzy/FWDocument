@@ -17,7 +17,7 @@
     <a title="FastTransformer Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -1246,13 +1246,16 @@
                 <a href="../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1972,6 +1975,9 @@
                 <a href="../Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2048,9 +2054,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2508,7 +2511,10 @@
                 <a href="../Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="../Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2517,7 +2523,10 @@
                 <a href="../Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="../Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -2719,7 +2728,21 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Fast Transformer
+ static func mappingForValue() -&gt; [SmartValueTransformer]? {
+     [
+         CodingKeys.name &lt;&mdash; FastTransformer<String, String>(fromJSON: { json in
+             &ldquo;abc&rdquo;
+         }, toJSON: { object in
+             &ldquo;123&rdquo;
+         }),
+         CodingKeys.subModel &lt;&mdash; FastTransformer<TestEnum, String>(fromJSON: { json in
+             TestEnum.man
+         }, toJSON: { object in
+             object?.rawValue
+         }),
+     ]
+ }</p>
 
           </section>
           <section class="section task-group-section">
@@ -2738,7 +2761,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>便捷的转换器</p>
 
                       </div>
                       <div class="declaration">
@@ -2749,15 +2772,46 @@
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fromJSON</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>json 转 object</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>toJSON</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>object 转 json， 如果需要转json，可以不实现。</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </section>
                   </div>
                 </li>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework15FastTransformerV17transformFromJSONyxSgypF"></a>
+                    <a name="/s:11FWFramework18ValueTransformableP17transformFromJSONy6ObjectQzSgypF"></a>
                     <a name="//apple_ref/swift/Method/transformFromJSON(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework15FastTransformerV17transformFromJSONyxSgypF">transformFromJSON(_:<wbr>)</a>
+                    <a class="token" href="#/s:11FWFramework18ValueTransformableP17transformFromJSONy6ObjectQzSgypF">transformFromJSON(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2765,8 +2819,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -2782,9 +2835,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework15FastTransformerV15transformToJSONyq_SgxF"></a>
+                    <a name="/s:11FWFramework18ValueTransformableP15transformToJSONy0F0QzSg6ObjectQzF"></a>
                     <a name="//apple_ref/swift/Method/transformToJSON(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework15FastTransformerV15transformToJSONyq_SgxF">transformToJSON(_:<wbr>)</a>
+                    <a class="token" href="#/s:11FWFramework18ValueTransformableP15transformToJSONy0F0QzSg6ObjectQzF">transformToJSON(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2792,8 +2845,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -2811,7 +2863,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

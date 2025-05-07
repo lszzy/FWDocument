@@ -17,7 +17,7 @@
     <a title="Protocols  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="search.json">
@@ -1244,13 +1244,16 @@
                 <a href="Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1970,6 +1973,9 @@
                 <a href="Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2046,9 +2052,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2506,7 +2509,10 @@
                 <a href="Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2515,7 +2521,10 @@
                 <a href="Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -4431,11 +4440,11 @@ CodableModel可实现KeyMappable，并选择以下模式使用，推荐方式</p
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/SmartCodable"></a>
-                <a name="//apple_ref/swift/Section/SmartCodable" class="dashAnchor"></a>
+                <a name="/SmartDecodable"></a>
+                <a name="//apple_ref/swift/Section/SmartDecodable" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/SmartCodable"></a>
-                  <h3 class="section-name"><span>SmartCodable</span>
+                  <a class="section-name-link" href="#/SmartDecodable"></a>
+                  <h3 class="section-name"><span>SmartDecodable</span>
 </h3>
                 </div>
               </div>
@@ -4581,9 +4590,9 @@ CodableModel可实现KeyMappable，并选择以下模式使用，推荐方式</p
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework22SmartPublishedProtocolP"></a>
-                    <a name="//apple_ref/swift/Protocol/SmartPublishedProtocol" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework22SmartPublishedProtocolP">SmartPublishedProtocol</a>
+                    <a name="/s:11FWFramework28PropertyWrapperInitializableP"></a>
+                    <a name="//apple_ref/swift/Protocol/PropertyWrapperInitializable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework28PropertyWrapperInitializableP">PropertyWrapperInitializable</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4591,17 +4600,22 @@ CodableModel可实现KeyMappable，并选择以下模式使用，推荐方式</p
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>协议SmartPublishedProtocol，目标是为任何遵循该协议的类型提供统一的接口。
-WrappedValue定义泛型类型，必须要求符合 Codable 协议。
-createInstance方法，尝试给定义的值创建实例。</p>
+                        <p>Protocol defining requirements for types that can publish wrapped Codable values.</p>
 
-                        <a href="Protocols/SmartPublishedProtocol.html" class="slightly-smaller">See more</a>
+<p>Provides a unified interface for any type conforming to this protocol.</p>
+
+<ul>
+<li>WrappedValue: The generic type that must conform to Codable</li>
+<li>createInstance: Attempts to create an instance from any value</li>
+</ul>
+
+                        <a href="Protocols/PropertyWrapperInitializable.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SmartPublishedProtocol</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">PropertyWrapperInitializable</span></code></pre>
 
                         </div>
                       </div>
@@ -4612,11 +4626,11 @@ createInstance方法，尝试给定义的值创建实例。</p>
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/JSONDecoder"></a>
-                <a name="//apple_ref/swift/Section/JSONDecoder" class="dashAnchor"></a>
+                <a name="/Transformer"></a>
+                <a name="//apple_ref/swift/Section/Transformer" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/JSONDecoder"></a>
-                  <h3 class="section-name"><span>JSONDecoder</span>
+                  <a class="section-name-link" href="#/Transformer"></a>
+                  <h3 class="section-name"><span>Transformer</span>
 </h3>
                 </div>
               </div>
@@ -9447,7 +9461,7 @@ createInstance方法，尝试给定义的值创建实例。</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
