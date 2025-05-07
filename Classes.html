@@ -17,7 +17,7 @@
     <a title="Classes  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="search.json">
@@ -1244,13 +1244,16 @@
                 <a href="Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1970,6 +1973,9 @@
                 <a href="Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2046,9 +2052,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2506,7 +2509,10 @@
                 <a href="Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2515,7 +2521,10 @@
                 <a href="Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -2840,7 +2849,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@_spi</span><span class="p">(</span><span class="o">&lt;&lt;</span><span class="n">unknown</span><span class="o">&gt;&gt;</span><span class="p">)</span>
+                          <pre class="highlight swift"><code><span class="kd">@_spi</span><span class="p">(</span><span class="kt"><a href="Typealiases.html#/s:11FWFramework2FWa">FW</a></span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">FrameworkAutoloader</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
@@ -5977,11 +5986,11 @@ var email: String = &ldquo;&rdquo;</p>
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/SmartModel"></a>
-                <a name="//apple_ref/swift/Section/SmartModel" class="dashAnchor"></a>
+                <a name="/SmartModelConfiguration"></a>
+                <a name="//apple_ref/swift/Section/SmartModelConfiguration" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/SmartModel"></a>
-                  <h3 class="section-name"><span>SmartModel</span>
+                  <a class="section-name-link" href="#/SmartModelConfiguration"></a>
+                  <h3 class="section-name"><span>SmartModelConfiguration</span>
 </h3>
                 </div>
               </div>
@@ -6008,47 +6017,6 @@ var email: String = &ldquo;&rdquo;</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">SmartModelConfiguration</span> <span class="p">:</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/JSONEncoder"></a>
-                <a name="//apple_ref/swift/Section/JSONEncoder" class="dashAnchor"></a>
-                <div class="section-name-container">
-                  <a class="section-name-link" href="#/JSONEncoder"></a>
-                  <h3 class="section-name"><span>JSONEncoder</span>
-</h3>
-                </div>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework16SmartJSONEncoderC"></a>
-                    <a name="//apple_ref/swift/Class/SmartJSONEncoder" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework16SmartJSONEncoderC">SmartJSONEncoder</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/SmartJSONEncoder.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">SmartJSONEncoder</span> <span class="p">:</span> <span class="kt">JSONEncoder</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
@@ -6090,6 +6058,47 @@ var email: String = &ldquo;&rdquo;</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">SmartJSONDecoder</span> <span class="p">:</span> <span class="kt">JSONDecoder</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/JSONEncoder"></a>
+                <a name="//apple_ref/swift/Section/JSONEncoder" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/JSONEncoder"></a>
+                  <h3 class="section-name"><span>JSONEncoder</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework16SmartJSONEncoderC"></a>
+                    <a name="//apple_ref/swift/Class/SmartJSONEncoder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework16SmartJSONEncoderC">SmartJSONEncoder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Classes/SmartJSONEncoder.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">SmartJSONEncoder</span> <span class="p">:</span> <span class="kt">JSONEncoder</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
@@ -14873,7 +14882,7 @@ ZoomImageView 提供最基础的图片预览和缩放功能，其他功能请通
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

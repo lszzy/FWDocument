@@ -17,7 +17,7 @@
     <a title="SmartKeyEncodingStrategy Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../../index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="../../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../../search.json">
@@ -1248,13 +1248,16 @@
                 <a href="../../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../../Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1974,6 +1977,9 @@
                 <a href="../../Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="../../Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../../Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2050,9 +2056,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../../Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2510,7 +2513,10 @@
                 <a href="../../Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="../../Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="../../Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2519,7 +2525,10 @@
                 <a href="../../Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="../../Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="../../Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -2740,7 +2749,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Use the keys specified by each type. This is the default strategy.</p>
 
                       </div>
                       <div class="declaration">
@@ -2767,7 +2776,26 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Convert from &ldquo;camelCaseKeys&rdquo; to &ldquo;snake_case_keys&rdquo; before writing a key to JSON payload.</p>
+
+<p>Capital characters are determined by testing membership in Unicode General Categories Lu and Lt.
+The conversion to lower case uses <code>Locale.system</code>, also known as the ICU &ldquo;root&rdquo; locale. This means the result is consistent regardless of the current user&rsquo;s locale and language preferences.</p>
+
+<p>Converting from camel case to snake case:</p>
+
+<ol>
+<li>Splits words at the boundary of lower-case to upper-case</li>
+<li>Inserts <code>_</code> between words</li>
+<li>Lowercases the entire string</li>
+<li>Preserves starting and ending <code>_</code>.</li>
+</ol>
+
+<p>For example, <code>oneTwoThree</code> becomes <code>one_two_three</code>. <code>_oneTwoThree_</code> becomes <code>_one_two_three_</code>.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Using a key encoding strategy has a nominal performance cost, as each string key has to be converted.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -2794,7 +2822,13 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Convert the first letter of the key to lower case before attempting to match a key with the one specified by each type.
+For example, <code>OneTwoThree</code> becomes <code>oneTwoThree</code>.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This strategy should be used with caution, especially if the key&rsquo;s first letter is intended to be uppercase for distinguishing purposes. It also incurs a nominal performance cost, as the first character of each key needs to be inspected and possibly modified.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -2821,7 +2855,13 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Convert the first letter of the key to upper case before attempting to match a key with the one specified by each type.
+For example, <code>oneTwoThree</code> becomes <code>OneTwoThree</code>.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This strategy should be used when the keys are expected to start with a lowercase letter and need to be converted to start with an uppercase letter. It incurs a nominal performance cost, as the first character of each key needs to be inspected and possibly modified.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -2840,7 +2880,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

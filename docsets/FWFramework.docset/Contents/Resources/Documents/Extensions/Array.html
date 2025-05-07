@@ -17,7 +17,7 @@
     <a title="Array Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -1246,13 +1246,16 @@
                 <a href="../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1972,6 +1975,9 @@
                 <a href="../Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2048,9 +2054,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2508,7 +2511,10 @@
                 <a href="../Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="../Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2517,7 +2523,10 @@
                 <a href="../Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="../Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -3477,7 +3486,7 @@ this method safe converts it to a Models array</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Deserializes any into an array of models</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
@@ -3515,6 +3524,54 @@ this method safe converts it to a Models array</p>
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>array</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Array</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>designatedPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Specifies the data path to decode</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Decoding strategy
+Duplicate enumeration items are not allowed, e.g., multiple keyStrategies cannot be passed in [only the first one is effective].</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Array of models</p>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -3541,6 +3598,54 @@ this method safe converts it to a Models array</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">deserialize</span><span class="p">(</span><span class="n">from</span> <span class="nv">json</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">designatedPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt"><a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a></span><span class="o">&gt;</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Element</span><span class="p">]?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>json</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>JSON string</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>designatedPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Specifies the data path to decode</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Decoding strategy
+Only one enumeration item is allowed, e.g., multiple keyStrategies cannot be passed in [only the first one is effective].</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Array of models</p>
                       </div>
                     </section>
                   </div>
@@ -3569,6 +3674,54 @@ this method safe converts it to a Models array</p>
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>designatedPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Specifies the data path to decode</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Decoding strategy
+Duplicate enumeration items are not allowed, e.g., multiple keyStrategies cannot be passed in [only the first one is effective].</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Array of models</p>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -3595,6 +3748,54 @@ this method safe converts it to a Models array</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">deserializePlist</span><span class="p">(</span><span class="n">from</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?,</span> <span class="nv">designatedPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt"><a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a></span><span class="o">&gt;</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Element</span><span class="p">]?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>designatedPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Specifies the data path to decode</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Decoding strategy
+Duplicate enumeration items are not allowed, e.g., multiple keyStrategies cannot be passed in [only the first one is effective].</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Array of models</p>
                       </div>
                     </section>
                   </div>
@@ -3636,6 +3837,29 @@ this method safe converts it to a Models array</p>
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>useMappedKeys</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether to use the mapped key during encoding. The default value is false.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>array</p>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -3662,6 +3886,53 @@ this method safe converts it to a Models array</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toJSONString</span><span class="p">(</span><span class="nv">options</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt"><a href="../Enums/SmartEncodingOption.html">SmartEncodingOption</a></span><span class="o">&gt;</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">prettyPrint</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>useMappedKeys</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether to use the mapped key during encoding. The default value is false.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>encoding options</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>prettyPrint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether to format print (adds line breaks in the JSON)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>JSON string</p>
                       </div>
                     </section>
                   </div>
@@ -3905,7 +4176,7 @@ this method safe converts it to a Models array</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

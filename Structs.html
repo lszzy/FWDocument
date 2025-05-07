@@ -17,7 +17,7 @@
     <a title="Structures  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="search.json">
@@ -1244,13 +1244,16 @@
                 <a href="Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1970,6 +1973,9 @@
                 <a href="Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2046,9 +2052,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2506,7 +2509,10 @@
                 <a href="Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2515,7 +2521,10 @@
                 <a href="Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -3218,11 +3227,11 @@ static var cacheValue: String = &ldquo;&rdquo;</p>
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/SmartCodable"></a>
-                <a name="//apple_ref/swift/Section/SmartCodable" class="dashAnchor"></a>
+                <a name="/SmartDecodable"></a>
+                <a name="//apple_ref/swift/Section/SmartDecodable" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/SmartCodable"></a>
-                  <h3 class="section-name"><span>SmartCodable</span>
+                  <a class="section-name-link" href="#/SmartDecodable"></a>
+                  <h3 class="section-name"><span>SmartDecodable</span>
 </h3>
                 </div>
               </div>
@@ -3281,14 +3290,7 @@ static var cacheValue: String = &ldquo;&rdquo;</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>IgnoredKey 使用注意</p>
-
-<ul>
-<li>1. 并不是真正的忽略被修饰属性的解析，而是解析的时候忽略使用数据。</li>
-<li>2. 是否有对应数据，不同的处理：</li>
-<li>- 有数据时候，会走进IgnoredKey的 <code>encode(to:)</code> 方法，抛出异常，让外部处理。</li>
-<li>- 没有数据时，不会进来，会被当前一个普通数据解析处理，走无数据时的兜底逻辑。</li>
-</ul>
+                        <p>Undocumented</p>
 
                         <a href="Structs/IgnoredKey.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3298,6 +3300,35 @@ static var cacheValue: String = &ldquo;&rdquo;</p>
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
 <span class="kd">public</span> <span class="kd">struct</span> <span class="kt">IgnoredKey</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework9SmartDateV"></a>
+                    <a name="//apple_ref/swift/Struct/SmartDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework9SmartDateV">SmartDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/SmartDate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
+<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartDate</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                         </div>
                       </div>
@@ -3317,8 +3348,7 @@ static var cacheValue: String = &ldquo;&rdquo;</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>被属性包装器包裹的，不会调用didFinishMapping方法。
-Swift的类型系统在运行时无法直接识别出wrappedValue的实际类型，需要各个属性包装器自行处理。</p>
+                        <p>Undocumented</p>
 
                         <a href="Structs/SmartFlat.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3328,6 +3358,36 @@ Swift的类型系统在运行时无法直接识别出wrappedValue的实际类型
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
 <span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartFlat</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">SmartFlat</span><span class="p">:</span> <span class="kt"><a href="Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework13SmartHexColorV"></a>
+                    <a name="//apple_ref/swift/Struct/SmartHexColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework13SmartHexColorV">SmartHexColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/SmartHexColor.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
+<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartHexColor</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                         </div>
                       </div>
@@ -3347,10 +3407,7 @@ Swift的类型系统在运行时无法直接识别出wrappedValue的实际类型
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>这段代码实现了一个自定义的属性包装器 SmartPublished，
-将Combine 的发布功能与 Codable 的数据序列化能力结合。通过属性包装器简化属性的声明，同时支持相应式编程。
-用于结合 Combine 的功能和编码解码支持。以下是对整个代码的说明。
-projectedValue提供一个发布者，可供订阅。</p>
+                        <p>Undocumented</p>
 
                         <a href="Structs/SmartPublished.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3360,7 +3417,7 @@ projectedValue提供一个发布者，可供订阅。</p>
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
 <span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartPublished</span><span class="o">&lt;</span><span class="kt">Value</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span> <span class="k">where</span> <span class="kt">Value</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt">Value</span> <span class="p">:</span> <span class="kt">Encodable</span></code></pre>
-<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">SmartPublished</span><span class="p">:</span> <span class="kt"><a href="Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">SmartPublished</span><span class="p">:</span> <span class="kt"><a href="Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a></span></code></pre>
 
                         </div>
                       </div>
@@ -3389,7 +3446,7 @@ projectedValue提供一个发布者，可供订阅。</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
-<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartAny</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartAny</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt"><a href="Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a></span></code></pre>
 
                         </div>
                       </div>
@@ -3400,11 +3457,11 @@ projectedValue提供一个发布者，可供订阅。</p>
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/JSONDecoder"></a>
-                <a name="//apple_ref/swift/Section/JSONDecoder" class="dashAnchor"></a>
+                <a name="/Transformer"></a>
+                <a name="//apple_ref/swift/Section/Transformer" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/JSONDecoder"></a>
-                  <h3 class="section-name"><span>JSONDecoder</span>
+                  <a class="section-name-link" href="#/Transformer"></a>
+                  <h3 class="section-name"><span>Transformer</span>
 </h3>
                 </div>
               </div>
@@ -3412,9 +3469,36 @@ projectedValue提供一个发布者，可供订阅。</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework24SmartHexColorTransformerV"></a>
-                    <a name="//apple_ref/swift/Struct/SmartHexColorTransformer" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework24SmartHexColorTransformerV">SmartHexColorTransformer</a>
+                    <a name="/s:11FWFramework19SmartKeyTransformerV"></a>
+                    <a name="//apple_ref/swift/Struct/SmartKeyTransformer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resolve the mapping relationship of keys</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartKeyTransformer</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework21SmartValueTransformerV"></a>
+                    <a name="//apple_ref/swift/Struct/SmartValueTransformer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework21SmartValueTransformerV">SmartValueTransformer</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -3424,13 +3508,55 @@ projectedValue提供一个发布者，可供订阅。</p>
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Structs/SmartHexColorTransformer.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/SmartValueTransformer.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartHexColorTransformer</span> <span class="p">:</span> <span class="kt"><a href="Protocols/ValueTransformable.html">ValueTransformable</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartValueTransformer</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework15FastTransformerV"></a>
+                    <a name="//apple_ref/swift/Struct/FastTransformer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework15FastTransformerV">FastTransformer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fast Transformer
+ static func mappingForValue() -&gt; [SmartValueTransformer]? {
+     [
+         CodingKeys.name &lt;&mdash; FastTransformer<String, String>(fromJSON: { json in
+             &ldquo;abc&rdquo;
+         }, toJSON: { object in
+             &ldquo;123&rdquo;
+         }),
+         CodingKeys.subModel &lt;&mdash; FastTransformer<TestEnum, String>(fromJSON: { json in
+             TestEnum.man
+         }, toJSON: { object in
+             object?.rawValue
+         }),
+     ]
+ }</p>
+
+                        <a href="Structs/FastTransformer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FastTransformer</span><span class="o">&lt;</span><span class="kt">Object</span><span class="p">,</span> <span class="kt"><a href="Structs/JSON.html">JSON</a></span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt"><a href="Protocols/ValueTransformable.html">ValueTransformable</a></span></code></pre>
 
                         </div>
                       </div>
@@ -3487,117 +3613,6 @@ projectedValue提供一个发布者，可供订阅。</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartDateTransformer</span> <span class="p">:</span> <span class="kt"><a href="Protocols/ValueTransformable.html">ValueTransformable</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework26SmartDateFormatTransformerV"></a>
-                    <a name="//apple_ref/swift/Struct/SmartDateFormatTransformer" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework26SmartDateFormatTransformerV">SmartDateFormatTransformer</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Structs/SmartDateFormatTransformer.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartDateFormatTransformer</span> <span class="p">:</span> <span class="kt"><a href="Protocols/ValueTransformable.html">ValueTransformable</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework19SmartKeyTransformerV"></a>
-                    <a name="//apple_ref/swift/Struct/SmartKeyTransformer" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartKeyTransformer</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework21SmartValueTransformerV"></a>
-                    <a name="//apple_ref/swift/Struct/SmartValueTransformer" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework21SmartValueTransformerV">SmartValueTransformer</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Structs/SmartValueTransformer.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartValueTransformer</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework15FastTransformerV"></a>
-                    <a name="//apple_ref/swift/Struct/FastTransformer" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework15FastTransformerV">FastTransformer</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Structs/FastTransformer.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FastTransformer</span><span class="o">&lt;</span><span class="kt">Object</span><span class="p">,</span> <span class="kt"><a href="Structs/JSON.html">JSON</a></span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt"><a href="Protocols/ValueTransformable.html">ValueTransformable</a></span></code></pre>
 
                         </div>
                       </div>
@@ -7786,7 +7801,7 @@ or the closest ancestor view controller if missing.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

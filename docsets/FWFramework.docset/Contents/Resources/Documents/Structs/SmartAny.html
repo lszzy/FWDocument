@@ -17,7 +17,7 @@
     <a title="SmartAny Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 7.0.2 Docs</a> (62% documented)</p>
+        <p><a href="../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -1246,13 +1246,16 @@
                 <a href="../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/SmartColor.html">SmartColor</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartEncodingOption.html">SmartEncodingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel.html">SmartSentinel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartSentinel/Level.html">– Level</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -1972,6 +1975,9 @@
                 <a href="../Protocols/ProgressViewPlugin.html">ProgressViewPlugin</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/RefreshPlugin.html">RefreshPlugin</a>
               </li>
               <li class="nav-group-task">
@@ -2048,9 +2054,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/SmartModel.html">SmartModel</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/SmartPublishedProtocol.html">SmartPublishedProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/StatisticalViewProtocol.html">StatisticalViewProtocol</a>
@@ -2508,7 +2511,10 @@
                 <a href="../Structs/SmartDataTransformer.html">SmartDataTransformer</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartDateFormatTransformer.html">SmartDateFormatTransformer</a>
+                <a href="../Structs/SmartDate.html">SmartDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartDate/DateStrategy.html">– DateStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/SmartDateTransformer.html">SmartDateTransformer</a>
@@ -2517,7 +2523,10 @@
                 <a href="../Structs/SmartFlat.html">SmartFlat</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/SmartHexColorTransformer.html">SmartHexColorTransformer</a>
+                <a href="../Structs/SmartHexColor.html">SmartHexColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SmartHexColor/HexFormat.html">– HexFormat</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs.html#/s:11FWFramework19SmartKeyTransformerV">SmartKeyTransformer</a>
@@ -2716,7 +2725,7 @@
                 <div class="language">
                   
                   <pre class="highlight swift"><code><span class="kd">@propertyWrapper</span>
-<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartAny</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SmartAny</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt"><a href="../Protocols/PropertyWrapperInitializable.html">PropertyWrapperInitializable</a></span></code></pre>
 
                 </div>
               </div>
@@ -2783,6 +2792,33 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:11FWFramework8SmartAnyV14createInstance4withACyxGSgyp_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/createInstance(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework8SmartAnyV14createInstance4withACyxGSgyp_tFZ">createInstance(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createInstance</span><span class="p">(</span><span class="n">with</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">SmartAny</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:Se4fromxs7Decoder_p_tKcfc"></a>
                     <a name="//apple_ref/swift/Method/init(from:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:Se4fromxs7Decoder_p_tKcfc">init(from:<wbr>)</a>
@@ -2837,7 +2873,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-04-09)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
