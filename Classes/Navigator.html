@@ -17,7 +17,7 @@
     <a title="Navigator Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
+        <p><a href="../index.html">FWFramework 7.1.0 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -1244,6 +1244,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartCoding.html">SmartCoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartCoding/NumberConversionStrategy.html">– NumberConversionStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
@@ -2964,10 +2970,117 @@
                 </li>
               </ul>
             </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Concurrency%2BNavigator"></a>
+                <a name="//apple_ref/swift/Section/Concurrency+Navigator" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Concurrency%2BNavigator"></a>
+                  <h3 class="section-name"><span>Concurrency+Navigator</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework9NavigatorC7present_8animatedySo16UIViewControllerC_SbtYaFZ"></a>
+                    <a name="//apple_ref/swift/Method/present(_:animated:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework9NavigatorC7present_8animatedySo16UIViewControllerC_SbtYaFZ">present(_:<wbr>animated:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>协程方式使用最顶部的显示控制器弹出控制器，建议present导航栏控制器(可用来push)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">present</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework9NavigatorC4open_8animated7optionsySo16UIViewControllerC_SbAA0B7OptionsVtYaFZ"></a>
+                    <a name="//apple_ref/swift/Method/open(_:animated:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework9NavigatorC4open_8animated7optionsySo16UIViewControllerC_SbAA0B7OptionsVtYaFZ">open(_:<wbr>animated:<wbr>options:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>协程方式使用最顶部的视图控制器打开控制器，自动判断push|present</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">open</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/NavigatorOptions.html">NavigatorOptions</a></span> <span class="o">=</span> <span class="p">[])</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework9NavigatorC5close8animated7optionsS2b_AA0B7OptionsVtYaFZ"></a>
+                    <a name="//apple_ref/swift/Method/close(animated:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework9NavigatorC5close8animated7optionsS2b_AA0B7OptionsVtYaFZ">close(animated:<wbr>options:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>协程方式关闭最顶部的视图控制器，自动判断pop|dismiss</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">close</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/NavigatorOptions.html">NavigatorOptions</a></span> <span class="o">=</span> <span class="p">[])</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-21)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

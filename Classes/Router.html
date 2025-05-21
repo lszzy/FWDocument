@@ -17,7 +17,7 @@
     <a title="Router Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
+        <p><a href="../index.html">FWFramework 7.1.0 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -1244,6 +1244,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartCoding.html">SmartCoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartCoding/NumberConversionStrategy.html">– NumberConversionStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
@@ -2823,7 +2829,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">Completion</span> <span class="o">=</span> <span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Any</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">Completion</span> <span class="o">=</span> <span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Sendable</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
 
                         </div>
                       </div>
@@ -3671,9 +3677,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework6RouterC7openURL_8userInfo10completionyAA15StringParameter_pSg_SDys11AnyHashableVypGSgyypSgYbScMYccSgtFZ"></a>
+                    <a name="/s:11FWFramework6RouterC7openURL_8userInfo10completionypSgAA15StringParameter_pSg_SDys11AnyHashableVypGSgys8Sendable_pSgYbScMYccSgtFZ"></a>
                     <a name="//apple_ref/swift/Method/openURL(_:userInfo:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework6RouterC7openURL_8userInfo10completionyAA15StringParameter_pSg_SDys11AnyHashableVypGSgyypSgYbScMYccSgtFZ">openURL(_:<wbr>userInfo:<wbr>completion:<wbr>)</a>
+                    <a class="token" href="#/s:11FWFramework6RouterC7openURL_8userInfo10completionypSgAA15StringParameter_pSg_SDys11AnyHashableVypGSgys8Sendable_pSgYbScMYccSgtFZ">openURL(_:<wbr>userInfo:<wbr>completion:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -3681,15 +3687,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>打开此 URL，带上附加信息，同时当操作完成时，执行额外的代码</p>
+                        <p>打开指定 URL，带上附加信息，同时当操作完成时，执行额外的代码</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">openURL</span><span class="p">(</span><span class="n">_</span> <span class="nv">url</span><span class="p">:</span> <span class="kt"><a href="../Protocols/StringParameter.html">StringParameter</a></span><span class="p">?,</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kt"><a href="../Classes/Router.html#/s:11FWFramework6RouterC10Completiona">Completion</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">openURL</span><span class="p">(</span><span class="n">_</span> <span class="nv">url</span><span class="p">:</span> <span class="kt"><a href="../Protocols/StringParameter.html">StringParameter</a></span><span class="p">?,</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kt"><a href="../Classes/Router.html#/s:11FWFramework6RouterC10Completiona">Completion</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -3742,9 +3749,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework6RouterC11completeURL_6resultyAC7ContextC_ypSgtFZ"></a>
+                    <a name="/s:11FWFramework6RouterC11completeURL_6resultyAC7ContextC_s8Sendable_pSgtFZ"></a>
                     <a name="//apple_ref/swift/Method/completeURL(_:result:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework6RouterC11completeURL_6resultyAC7ContextC_ypSgtFZ">completeURL(_:<wbr>result:<wbr>)</a>
+                    <a class="token" href="#/s:11FWFramework6RouterC11completeURL_6resultyAC7ContextC_s8Sendable_pSgtFZ">completeURL(_:<wbr>result:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -3760,7 +3767,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">completeURL</span><span class="p">(</span><span class="n">_</span> <span class="nv">context</span><span class="p">:</span> <span class="kt"><a href="../Classes/Router/Context.html">Context</a></span><span class="p">,</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span></code></pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">completeURL</span><span class="p">(</span><span class="n">_</span> <span class="nv">context</span><span class="p">:</span> <span class="kt"><a href="../Classes/Router/Context.html">Context</a></span><span class="p">,</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">Sendable</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -4259,10 +4266,55 @@ Router.generateURL(&ldquo;beauty/:id&rdquo;, parameters: [&ldquo;id&rdquo;: 13])
                 </li>
               </ul>
             </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Concurrency%2BRouter"></a>
+                <a name="//apple_ref/swift/Section/Concurrency+Router" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Concurrency%2BRouter"></a>
+                  <h3 class="section-name"><span>Concurrency+Router</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework6RouterC7openURL_8userInfos8Sendable_pSgAA15StringParameter_pSg_SDys11AnyHashableVypGSgtYaFZ"></a>
+                    <a name="//apple_ref/swift/Method/openURL(_:userInfo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework6RouterC7openURL_8userInfos8Sendable_pSgAA15StringParameter_pSg_SDys11AnyHashableVypGSgtYaFZ">openURL(_:<wbr>userInfo:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>协程方式打开指定 URL，带上附加信息。业务侧需调用 completeURL 指定回调结果，如果未调用则会在Context释放时自动回调nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">openURL</span><span class="p">(</span><span class="n">_</span> <span class="nv">url</span><span class="p">:</span> <span class="kt"><a href="../Protocols/StringParameter.html">StringParameter</a></span><span class="p">?,</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Sendable</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-21)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
