@@ -107,7 +107,7 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Kernel/Logger.swift",
-      "line": 574,
+      "line": 577,
       "symbol": "LoggerPluginFile.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -569,21 +569,21 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Kernel/Router.swift",
-      "line": 93,
+      "line": 118,
       "symbol": "Router.Parameter.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Kernel/Router.swift",
-      "line": 95,
+      "line": 120,
       "symbol": "Router.Parameter.init(dictionaryValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Kernel/Router.swift",
-      "line": 104,
+      "line": 130,
       "symbol": "Router.Parameter.dictionaryValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -3558,168 +3558,168 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 936,
+      "line": 940,
       "symbol": "SmartSentinel.Level",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1317,
+      "line": 1321,
       "symbol": "IgnoredKey",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1407,
+      "line": 1411,
       "symbol": "PropertyWrapperInitializable.WrappedValue",
       "symbol_kind": "source.lang.swift.decl.associatedtype",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1409,
+      "line": 1413,
       "symbol": "PropertyWrapperInitializable.wrappedValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1411,
+      "line": 1415,
       "symbol": "PropertyWrapperInitializable.init(wrappedValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1413,
+      "line": 1417,
       "symbol": "PropertyWrapperInitializable.createInstance(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1417,
+      "line": 1421,
       "symbol": "SmartDate",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1418,
+      "line": 1422,
       "symbol": "SmartDate.wrappedValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1421,
+      "line": 1425,
       "symbol": "SmartDate.init(wrappedValue:encodeFormat:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1470,
+      "line": 1474,
       "symbol": "SmartDate",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1471,
+      "line": 1475,
       "symbol": "SmartDate.DateStrategy",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1472,
+      "line": 1476,
       "symbol": "SmartDate.DateStrategy.timestamp",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1473,
+      "line": 1477,
       "symbol": "SmartDate.DateStrategy.timestampMilliseconds",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1474,
+      "line": 1478,
       "symbol": "SmartDate.DateStrategy.iso8601",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1475,
+      "line": 1479,
       "symbol": "SmartDate.DateStrategy.formatted(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1533,
+      "line": 1537,
       "symbol": "SmartFlat",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1534,
+      "line": 1538,
       "symbol": "SmartFlat.wrappedValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1536,
+      "line": 1540,
       "symbol": "SmartFlat.init(wrappedValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1563,
+      "line": 1567,
       "symbol": "SmartFlat",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1596,
+      "line": 1600,
       "symbol": "SmartHexColor",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1597,
+      "line": 1601,
       "symbol": "SmartHexColor.wrappedValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1601,
+      "line": 1605,
       "symbol": "SmartHexColor.init(wrappedValue:encodeHexFormat:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1648,
+      "line": 1652,
       "symbol": "SmartHexColor",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1649,
+      "line": 1653,
       "symbol": "SmartHexColor.toColor(from:format:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
@@ -3761,252 +3761,252 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1848,
+      "line": 1842,
       "symbol": "SmartPublished",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1861,
+      "line": 1855,
       "symbol": "SmartPublished.wrappedValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1903,
+      "line": 1897,
       "symbol": "SmartPublished.init(wrappedValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1947,
+      "line": 1939,
       "symbol": "SmartPublished",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1959,
+      "line": 1951,
       "symbol": "SmartAny",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1960,
+      "line": 1952,
       "symbol": "SmartAny.wrappedValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1962,
+      "line": 1954,
       "symbol": "SmartAny.init(wrappedValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 1966,
+      "line": 1958,
       "symbol": "SmartAny.createInstance(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2402,
+      "line": 2451,
       "symbol": "SmartValueTransformer",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2405,
+      "line": 2454,
       "symbol": "SmartValueTransformer.init(location:performer:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2420,
+      "line": 2469,
       "symbol": "ValueTransformable",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2421,
+      "line": 2470,
       "symbol": "ValueTransformable.Object",
       "symbol_kind": "source.lang.swift.decl.associatedtype",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2422,
+      "line": 2471,
       "symbol": "ValueTransformable.JSON",
       "symbol_kind": "source.lang.swift.decl.associatedtype",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2431,
+      "line": 2480,
       "symbol": "<---(_:_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2473,
+      "line": 2522,
       "symbol": "SmartDataTransformer",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2474,
+      "line": 2523,
       "symbol": "SmartDataTransformer.JSON",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2475,
+      "line": 2524,
       "symbol": "SmartDataTransformer.Object",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2477,
+      "line": 2526,
       "symbol": "SmartDataTransformer.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2491,
+      "line": 2540,
       "symbol": "SmartDateTransformer",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2492,
+      "line": 2541,
       "symbol": "SmartDateTransformer.JSON",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2493,
+      "line": 2542,
       "symbol": "SmartDateTransformer.Object",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2497,
+      "line": 2546,
       "symbol": "SmartDateTransformer.init(strategy:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2521,
+      "line": 2570,
       "symbol": "SmartURLTransformer",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2522,
+      "line": 2571,
       "symbol": "SmartURLTransformer.JSON",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 2523,
+      "line": 2572,
       "symbol": "SmartURLTransformer.Object",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 3699,
+      "line": 3748,
       "symbol": "SmartJSONDecoder",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 3700,
+      "line": 3749,
       "symbol": "SmartJSONDecoder.smartDataDecodingStrategy",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 3722,
+      "line": 3771,
       "symbol": "SmartJSONDecoder.smartDateDecodingStrategy",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 3724,
+      "line": 3773,
       "symbol": "SmartJSONDecoder.smartKeyDecodingStrategy",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 3761,
+      "line": 3810,
       "symbol": "JSONDecoder.SmartDataDecodingStrategy",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 3768,
+      "line": 3817,
       "symbol": "JSONDecoder.SmartKeyDecodingStrategy",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 5801,
+      "line": 5852,
       "symbol": "SmartJSONEncoder",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 5802,
+      "line": 5853,
       "symbol": "SmartJSONEncoder.smartKeyEncodingStrategy",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 5803,
+      "line": 5854,
       "symbol": "SmartJSONEncoder.smartDataEncodingStrategy",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 5879,
+      "line": 5930,
       "symbol": "JSONEncoder.SmartDataEncodingStrategy.base64",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Model/SmartModel.swift",
-      "line": 5884,
+      "line": 5935,
       "symbol": "JSONEncoder.SmartKeyEncodingStrategy",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
@@ -8493,84 +8493,84 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2080,
+      "line": 2095,
       "symbol": "ViewLoadingState.ready",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2081,
+      "line": 2096,
       "symbol": "ViewLoadingState.loading",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2082,
+      "line": 2097,
       "symbol": "ViewLoadingState.success(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2083,
+      "line": 2098,
       "symbol": "ViewLoadingState.failure(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2126,
+      "line": 2141,
       "symbol": "ViewControllerLifecycleState.didInit",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2127,
+      "line": 2142,
       "symbol": "ViewControllerLifecycleState.didLoad",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2128,
+      "line": 2143,
       "symbol": "ViewControllerLifecycleState.willAppear",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2129,
+      "line": 2144,
       "symbol": "ViewControllerLifecycleState.isAppearing",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2130,
+      "line": 2145,
       "symbol": "ViewControllerLifecycleState.didAppear",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2131,
+      "line": 2146,
       "symbol": "ViewControllerLifecycleState.willDisappear",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2132,
+      "line": 2147,
       "symbol": "ViewControllerLifecycleState.didDisappear",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit.swift",
-      "line": 2579,
+      "line": 2594,
       "symbol": "FrameworkConfiguration.isViewControllerProtocol",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"

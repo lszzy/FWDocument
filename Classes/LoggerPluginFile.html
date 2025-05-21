@@ -17,7 +17,7 @@
     <a title="LoggerPluginFile Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 7.0.3 Docs</a> (63% documented)</p>
+        <p><a href="../index.html">FWFramework 7.1.0 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -1244,6 +1244,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SkeletonAnimationType.html">SkeletonAnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartCoding.html">SmartCoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SmartCoding/NumberConversionStrategy.html">– NumberConversionStrategy</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartDecodingOption.html">SmartDecodingOption</a>
@@ -2792,9 +2798,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework16LoggerPluginFileC11logKeepDaysSivp"></a>
-                    <a name="//apple_ref/swift/Property/logKeepDays" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework16LoggerPluginFileC11logKeepDaysSivp">logKeepDays</a>
+                    <a name="/s:11FWFramework16LoggerPluginFileC12maxAliveDaysSivp"></a>
+                    <a name="//apple_ref/swift/Property/maxAliveDays" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework16LoggerPluginFileC12maxAliveDaysSivp">maxAliveDays</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2802,14 +2808,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>自定义日志保留天数，默认7天</p>
+                        <p>自定义日志最大保留天数，默认7天</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">logKeepDays</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maxAliveDays</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
                       </div>
@@ -2819,9 +2825,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11FWFramework16LoggerPluginFileC16shouldMergeFilesSbvp"></a>
-                    <a name="//apple_ref/swift/Property/shouldMergeFiles" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework16LoggerPluginFileC16shouldMergeFilesSbvp">shouldMergeFiles</a>
+                    <a name="/s:11FWFramework16LoggerPluginFileC03maxD4Sizes5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/maxFileSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework16LoggerPluginFileC03maxD4Sizes5Int64Vvp">maxFileSize</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2829,14 +2835,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>是否按天合并日志文件，默认true</p>
+                        <p>自定义日志文件最大大小，小于等于0不限制，默认1M</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldMergeFiles</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maxFileSize</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
 
                         </div>
                       </div>
@@ -2978,12 +2984,39 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework16LoggerPluginFileC5flush10completionyyycSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/flush(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework16LoggerPluginFileC5flush10completionyyycSg_tF">flush(completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>同步刷新日志文件并回调，可用于日志上传等</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">flush</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-08)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-05-21)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
