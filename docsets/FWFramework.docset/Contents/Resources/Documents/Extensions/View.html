@@ -17,7 +17,7 @@
     <a title="View Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 8.0.0 Docs</a> (63% documented)</p>
+        <p><a href="../index.html">FWFramework 8.1.0 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -659,6 +659,9 @@
                 <a href="../Classes/PullRefreshView.html">PullRefreshView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/PurchaseManager.html">PurchaseManager</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/Recognizer.html">Recognizer</a>
               </li>
               <li class="nav-group-task">
@@ -1250,6 +1253,27 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SmartSentinel/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftSpeech.html">SwiftSpeech</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftSpeech/ViewModifiers.html">– ViewModifiers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftSpeech.html#/s:11FWFramework11SwiftSpeechO5DemosV">– Demos</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftSpeech/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftSpeech/RecordButton.html">– RecordButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftSpeech/Session.html">– Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftSpeech/FunctionalComponentDelegate.html">– FunctionalComponentDelegate</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -2548,27 +2572,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/StoredValue.html">StoredValue</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SwiftSpeech.html">SwiftSpeech</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SwiftSpeech/ViewModifiers.html">– ViewModifiers</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SwiftSpeech.html#/s:11FWFramework11SwiftSpeechV5DemosV">– Demos</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SwiftSpeech/State.html">– State</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SwiftSpeech/RecordButton.html">– RecordButton</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SwiftSpeech/Session.html">– Session</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SwiftSpeech/FunctionalComponentDelegate.html">– FunctionalComponentDelegate</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs.html#/s:11FWFramework11TabViewTypeV">TabViewType</a>
@@ -4325,9 +4328,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV7SessionVcGGGyANc_tF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO7SessionVcGGGyANc_tF"></a>
                     <a name="//apple_ref/swift/Method/onStartRecording(appendAction:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV7SessionVcGGGyANc_tF">onStartRecording(appendAction:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO7SessionVcGGGyANc_tF">onStartRecording(appendAction:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4343,8 +4346,8 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">onStartRecording</span><span class="p">(</span><span class="n">appendAction</span> <span class="nv">actionToAppend</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span>
-<span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">onStartRecording</span><span class="p">(</span><span class="n">appendAction</span> <span class="nv">actionToAppend</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span>
+    <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4354,9 +4357,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV7SessionVcGGGyANc_tF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO7SessionVcGGGyANc_tF"></a>
                     <a name="//apple_ref/swift/Method/onStopRecording(appendAction:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV7SessionVcGGGyANc_tF">onStopRecording(appendAction:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO7SessionVcGGGyANc_tF">onStopRecording(appendAction:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4372,8 +4375,8 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">onStopRecording</span><span class="p">(</span><span class="n">appendAction</span> <span class="nv">actionToAppend</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span>
-<span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">onStopRecording</span><span class="p">(</span><span class="n">appendAction</span> <span class="nv">actionToAppend</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span>
+    <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4383,9 +4386,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV7SessionVcGGGyANc_tF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO7SessionVcGGGyANc_tF"></a>
                     <a name="//apple_ref/swift/Method/onCancelRecording(appendAction:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV7SessionVcGGGyANc_tF">onCancelRecording(appendAction:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording12appendActionAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO7SessionVcGGGyANc_tF">onCancelRecording(appendAction:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4401,8 +4404,8 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">onCancelRecording</span><span class="p">(</span><span class="n">appendAction</span> <span class="nv">actionToAppend</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span>
-<span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">onCancelRecording</span><span class="p">(</span><span class="n">appendAction</span> <span class="nv">actionToAppend</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span>
+    <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4412,9 +4415,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF"></a>
                     <a name="//apple_ref/swift/Method/onStartRecording(sendSessionTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF">onStartRecording(sendSessionTo:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF">onStartRecording(sendSessionTo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4430,7 +4433,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="n">onStartRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">onStartRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span></code></pre>
 
                         </div>
                       </div>
@@ -4440,9 +4443,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF"></a>
                     <a name="//apple_ref/swift/Method/onStartRecording(sendSessionTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF">onStartRecording(sendSessionTo:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE16onStartRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF">onStartRecording(sendSessionTo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4458,7 +4461,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="n">onStartRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">?</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">onStartRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -4468,9 +4471,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF"></a>
                     <a name="//apple_ref/swift/Method/onStopRecording(sendSessionTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF">onStopRecording(sendSessionTo:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF">onStopRecording(sendSessionTo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4486,7 +4489,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="n">onStopRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">onStopRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span></code></pre>
 
                         </div>
                       </div>
@@ -4496,9 +4499,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF"></a>
                     <a name="//apple_ref/swift/Method/onStopRecording(sendSessionTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF">onStopRecording(sendSessionTo:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE15onStopRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF">onStopRecording(sendSessionTo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4514,7 +4517,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="n">onStopRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">?</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">onStopRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -4524,9 +4527,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF"></a>
                     <a name="//apple_ref/swift/Method/onCancelRecording(sendSessionTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF">onCancelRecording(sendSessionTo:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__AN6OutputRtd__lF">onCancelRecording(sendSessionTo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4542,7 +4545,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="n">onCancelRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">onCancelRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span></code></pre>
 
                         </div>
                       </div>
@@ -4552,9 +4555,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF"></a>
                     <a name="//apple_ref/swift/Method/onCancelRecording(sendSessionTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechV0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF">onCancelRecording(sendSessionTo:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onCancelRecording13sendSessionToAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySayyAD0A6SpeechO0I0VcGGGqd___t7Combine7SubjectRd__ANSg6OutputRtd__lF">onCancelRecording(sendSessionTo:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4570,7 +4573,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="n">onCancelRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">?</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">onCancelRecording</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sendSessionTo</span> <span class="nv">subject</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="n">_EnvironmentKeyTransformModifier</span><span class="o">&lt;</span><span class="p">[(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">]</span><span class="o">&gt;&gt;</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Subject</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Output</span> <span class="o">==</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -4580,9 +4583,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold20sessionConfiguration9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghI0VGAL7SessionV0K0V_AA9AnimationV14CoreFoundation7CGFloatVtF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold20sessionConfiguration9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghI0VGAL7SessionV0K0V_AA9AnimationV14CoreFoundation7CGFloatVtF"></a>
                     <a name="//apple_ref/swift/Method/swiftSpeechRecordOnHold(sessionConfiguration:animation:distanceToCancel:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold20sessionConfiguration9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghI0VGAL7SessionV0K0V_AA9AnimationV14CoreFoundation7CGFloatVtF">swiftSpeechRecordOnHold(sessionConfiguration:<wbr>animation:<wbr>distanceToCancel:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold20sessionConfiguration9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghI0VGAL7SessionV0K0V_AA9AnimationV14CoreFoundation7CGFloatVtF">swiftSpeechRecordOnHold(sessionConfiguration:<wbr>animation:<wbr>distanceToCancel:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4598,11 +4601,11 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">swiftSpeechRecordOnHold</span><span class="p">(</span>
-    <span class="nv">sessionConfiguration</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span> <span class="o">=</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span><span class="p">(),</span>
-    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span><span class="p">,</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">swiftSpeechRecordOnHold</span><span class="p">(</span>
+    <span class="nv">sessionConfiguration</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span> <span class="o">=</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span><span class="p">(),</span>
+    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span><span class="p">,</span>
     <span class="nv">distanceToCancel</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">50.0</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">RecordOnHold</span><span class="o">&gt;</span></code></pre>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">RecordOnHold</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4612,9 +4615,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold6locale9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghI0VG10Foundation6LocaleV_AA9AnimationV04CoreR07CGFloatVtF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold6locale9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghI0VG10Foundation6LocaleV_AA9AnimationV04CoreR07CGFloatVtF"></a>
                     <a name="//apple_ref/swift/Method/swiftSpeechRecordOnHold(locale:animation:distanceToCancel:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold6locale9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghI0VG10Foundation6LocaleV_AA9AnimationV04CoreR07CGFloatVtF">swiftSpeechRecordOnHold(locale:<wbr>animation:<wbr>distanceToCancel:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE23swiftSpeechRecordOnHold6locale9animation16distanceToCancelAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghI0VG10Foundation6LocaleV_AA9AnimationV04CoreR07CGFloatVtF">swiftSpeechRecordOnHold(locale:<wbr>animation:<wbr>distanceToCancel:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4630,11 +4633,11 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">swiftSpeechRecordOnHold</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">swiftSpeechRecordOnHold</span><span class="p">(</span>
     <span class="nv">locale</span><span class="p">:</span> <span class="kt">Locale</span><span class="p">,</span>
-    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span><span class="p">,</span>
+    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span><span class="p">,</span>
     <span class="nv">distanceToCancel</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">50.0</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">RecordOnHold</span><span class="o">&gt;</span></code></pre>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">RecordOnHold</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4644,9 +4647,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap20sessionConfiguration9animationAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghiJ0VGAK7SessionV0L0V_AA9AnimationVtF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap20sessionConfiguration9animationAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghiJ0VGAK7SessionV0L0V_AA9AnimationVtF"></a>
                     <a name="//apple_ref/swift/Method/swiftSpeechToggleRecordingOnTap(sessionConfiguration:animation:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap20sessionConfiguration9animationAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghiJ0VGAK7SessionV0L0V_AA9AnimationVtF">swiftSpeechToggleRecordingOnTap(sessionConfiguration:<wbr>animation:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap20sessionConfiguration9animationAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghiJ0VGAK7SessionV0L0V_AA9AnimationVtF">swiftSpeechToggleRecordingOnTap(sessionConfiguration:<wbr>animation:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4662,10 +4665,10 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">swiftSpeechToggleRecordingOnTap</span><span class="p">(</span>
-    <span class="nv">sessionConfiguration</span><span class="p">:</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span> <span class="o">=</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span><span class="p">(),</span>
-    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">ToggleRecordingOnTap</span><span class="o">&gt;</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">swiftSpeechToggleRecordingOnTap</span><span class="p">(</span>
+    <span class="nv">sessionConfiguration</span><span class="p">:</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span> <span class="o">=</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="o">.</span><span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span><span class="p">(),</span>
+    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">ToggleRecordingOnTap</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4675,9 +4678,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap6locale9animationAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghiJ0VG10Foundation6LocaleV_AA9AnimationVtF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap6locale9animationAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghiJ0VG10Foundation6LocaleV_AA9AnimationVtF"></a>
                     <a name="//apple_ref/swift/Method/swiftSpeechToggleRecordingOnTap(locale:animation:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap6locale9animationAA15ModifiedContentVyxAD0aF0V0C9ModifiersV0ghiJ0VG10Foundation6LocaleV_AA9AnimationVtF">swiftSpeechToggleRecordingOnTap(locale:<wbr>animation:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE31swiftSpeechToggleRecordingOnTap6locale9animationAA15ModifiedContentVyxAD0aF0O0C9ModifiersV0ghiJ0VG10Foundation6LocaleV_AA9AnimationVtF">swiftSpeechToggleRecordingOnTap(locale:<wbr>animation:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4693,10 +4696,10 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">swiftSpeechToggleRecordingOnTap</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">swiftSpeechToggleRecordingOnTap</span><span class="p">(</span>
     <span class="nv">locale</span><span class="p">:</span> <span class="kt">Locale</span> <span class="o">=</span> <span class="o">.</span><span class="n">autoupdatingCurrent</span><span class="p">,</span>
-    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">ToggleRecordingOnTap</span><span class="o">&gt;</span></code></pre>
+    <span class="nv">animation</span><span class="p">:</span> <span class="kt">Animation</span> <span class="o">=</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="n">defaultAnimation</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">ToggleRecordingOnTap</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4706,9 +4709,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE11onRecognize21includePartialResults12handleResult0J5ErrorAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionK0CtcyAS_s0L0_ptctF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE11onRecognize21includePartialResults12handleResult0J5ErrorAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionK0CtcyAS_s0L0_ptctF"></a>
                     <a name="//apple_ref/swift/Method/onRecognize(includePartialResults:handleResult:handleError:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE11onRecognize21includePartialResults12handleResult0J5ErrorAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionK0CtcyAS_s0L0_ptctF">onRecognize(includePartialResults:<wbr>handleResult:<wbr>handleError:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE11onRecognize21includePartialResults12handleResult0J5ErrorAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionK0CtcyAS_s0L0_ptctF">onRecognize(includePartialResults:<wbr>handleResult:<wbr>handleError:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4724,11 +4727,11 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">onRecognize</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">onRecognize</span><span class="p">(</span>
     <span class="n">includePartialResults</span> <span class="nv">isPartialResultIncluded</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
-    <span class="n">handleResult</span> <span class="nv">resultHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">SFSpeechRecognitionResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span>
-    <span class="n">handleError</span> <span class="nv">errorHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
+    <span class="n">handleResult</span> <span class="nv">resultHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">SFSpeechRecognitionResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span>
+    <span class="n">handleError</span> <span class="nv">errorHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4738,9 +4741,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionL0CtcyAS_s0M0_ptctF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionL0CtcyAS_s0M0_ptctF"></a>
                     <a name="//apple_ref/swift/Method/onRecognizeLatest(includePartialResults:handleResult:handleError:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionL0CtcyAS_s0M0_ptctF">onRecognizeLatest(includePartialResults:<wbr>handleResult:<wbr>handleError:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_yAL7SessionV_So019SFSpeechRecognitionL0CtcyAS_s0M0_ptctF">onRecognizeLatest(includePartialResults:<wbr>handleResult:<wbr>handleError:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4756,11 +4759,11 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">onRecognizeLatest</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">onRecognizeLatest</span><span class="p">(</span>
     <span class="n">includePartialResults</span> <span class="nv">isPartialResultIncluded</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
-    <span class="n">handleResult</span> <span class="nv">resultHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">SFSpeechRecognitionResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span>
-    <span class="n">handleError</span> <span class="nv">errorHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
+    <span class="n">handleResult</span> <span class="nv">resultHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">SFSpeechRecognitionResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span>
+    <span class="n">handleError</span> <span class="nv">errorHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">Session</span><span class="p">,</span> <span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4770,9 +4773,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_ySo019SFSpeechRecognitionL0Ccys0M0_pctF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_ySo019SFSpeechRecognitionL0Ccys0M0_pctF"></a>
                     <a name="//apple_ref/swift/Method/onRecognizeLatest(includePartialResults:handleResult:handleError:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_ySo019SFSpeechRecognitionL0Ccys0M0_pctF">onRecognizeLatest(includePartialResults:<wbr>handleResult:<wbr>handleError:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults12handleResult0K5ErrorAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_ySo019SFSpeechRecognitionL0Ccys0M0_pctF">onRecognizeLatest(includePartialResults:<wbr>handleResult:<wbr>handleError:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4788,11 +4791,11 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">onRecognizeLatest</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">onRecognizeLatest</span><span class="p">(</span>
     <span class="n">includePartialResults</span> <span class="nv">isPartialResultIncluded</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
     <span class="n">handleResult</span> <span class="nv">resultHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">SFSpeechRecognitionResult</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span>
     <span class="n">handleError</span> <span class="nv">errorHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4802,9 +4805,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults6updateAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_AA7BindingVySSGtF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults6updateAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_AA7BindingVySSGtF"></a>
                     <a name="//apple_ref/swift/Method/onRecognizeLatest(includePartialResults:update:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults6updateAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV02OnF0VGSb_AA7BindingVySSGtF">onRecognizeLatest(includePartialResults:<wbr>update:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE17onRecognizeLatest21includePartialResults6updateAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV02OnF0VGSb_AA7BindingVySSGtF">onRecognizeLatest(includePartialResults:<wbr>update:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4820,10 +4823,10 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">onRecognizeLatest</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">onRecognizeLatest</span><span class="p">(</span>
     <span class="n">includePartialResults</span> <span class="nv">isPartialResultIncluded</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
     <span class="n">update</span> <span class="nv">textBinding</span><span class="p">:</span> <span class="kt">Binding</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -4833,9 +4836,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE19printRecognizedText21includePartialResultsAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV11OnRecognizeVGSb_tF"></a>
+                    <a name="/s:7SwiftUI4ViewP11FWFrameworkE19printRecognizedText21includePartialResultsAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV11OnRecognizeVGSb_tF"></a>
                     <a name="//apple_ref/swift/Method/printRecognizedText(includePartialResults:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE19printRecognizedText21includePartialResultsAA15ModifiedContentVyxAD0A6SpeechV0C9ModifiersV11OnRecognizeVGSb_tF">printRecognizedText(includePartialResults:<wbr>)</a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP11FWFrameworkE19printRecognizedText21includePartialResultsAA15ModifiedContentVyxAD0A6SpeechO0C9ModifiersV11OnRecognizeVGSb_tF">printRecognizedText(includePartialResults:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -4851,9 +4854,9 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@MainActor</span>
-<span class="kd">func</span> <span class="nf">printRecognizedText</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">printRecognizedText</span><span class="p">(</span>
     <span class="n">includePartialResults</span> <span class="nv">isPartialResultIncluded</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Structs/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ModifiedContent</span><span class="o">&lt;</span><span class="k">Self</span><span class="p">,</span> <span class="kt"><a href="../Enums/SwiftSpeech.html">SwiftSpeech</a></span><span class="o">.</span><span class="kt">ViewModifiers</span><span class="o">.</span><span class="kt">OnRecognize</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -5844,7 +5847,7 @@ GeometryReader { proxy in
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-06-20)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-07-05)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
