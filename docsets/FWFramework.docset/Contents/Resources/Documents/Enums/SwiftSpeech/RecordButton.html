@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Session Structure Reference</title>
+    <title>RecordButton Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,11 +13,11 @@
     <script src="../../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/Session" class="dashAnchor"></a>
-    <a title="Session Structure Reference"></a>
+    <a name="//apple_ref/swift/Struct/RecordButton" class="dashAnchor"></a>
+    <a title="RecordButton Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../../index.html">FWFramework 8.0.0 Docs</a> (63% documented)</p>
+        <p><a href="../../index.html">FWFramework 8.1.0 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../../search.json">
@@ -30,11 +30,11 @@
       <p id="breadcrumbs">
         <a href="../../index.html">FWFramework</a>
         <img id="carat" src="../../img/carat.png" alt=""/>
-        <a href="../../Structs.html">Structures</a>
+        <a href="../../Enums.html">Enumerations</a>
         <img id="carat" src="../../img/carat.png" alt=""/>
-        <a href="../../Structs/SwiftSpeech.html">SwiftSpeech</a>
+        <a href="../../Enums/SwiftSpeech.html">SwiftSpeech</a>
         <img id="carat" src="../../img/carat.png" alt=""/>
-        Session Structure Reference
+        RecordButton Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -661,6 +661,9 @@
                 <a href="../../Classes/PullRefreshView.html">PullRefreshView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../../Classes/PurchaseManager.html">PurchaseManager</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../../Classes/Recognizer.html">Recognizer</a>
               </li>
               <li class="nav-group-task">
@@ -1252,6 +1255,27 @@
               </li>
               <li class="nav-group-task">
                 <a href="../../Enums/SmartSentinel/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SwiftSpeech.html">SwiftSpeech</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SwiftSpeech/ViewModifiers.html">– ViewModifiers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SwiftSpeech.html#/s:11FWFramework11SwiftSpeechO5DemosV">– Demos</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SwiftSpeech/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SwiftSpeech/RecordButton.html">– RecordButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SwiftSpeech/Session.html">– Session</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SwiftSpeech/FunctionalComponentDelegate.html">– FunctionalComponentDelegate</a>
               </li>
               <li class="nav-group-task">
                 <a href="../../Enums/TabBarItemContentMode.html">TabBarItemContentMode</a>
@@ -2552,27 +2576,6 @@
                 <a href="../../Structs/StoredValue.html">StoredValue</a>
               </li>
               <li class="nav-group-task">
-                <a href="../../Structs/SwiftSpeech.html">SwiftSpeech</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Structs/SwiftSpeech/ViewModifiers.html">– ViewModifiers</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Structs/SwiftSpeech.html#/s:11FWFramework11SwiftSpeechV5DemosV">– Demos</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Structs/SwiftSpeech/State.html">– State</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Structs/SwiftSpeech/RecordButton.html">– RecordButton</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Structs/SwiftSpeech/Session.html">– Session</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../../Structs/SwiftSpeech/FunctionalComponentDelegate.html">– FunctionalComponentDelegate</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../../Structs.html#/s:11FWFramework11TabViewTypeV">TabViewType</a>
               </li>
               <li class="nav-group-task">
@@ -2734,12 +2737,12 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Session</h1>
+            <h1>RecordButton</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">@dynamicMemberLookup</span>
-<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Session</span> <span class="p">:</span> <span class="kt">Identifiable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">struct</span> <span class="kt">RecordButton</span> <span class="p">:</span> <span class="kt">View</span></code></pre>
 
                 </div>
               </div>
@@ -2752,9 +2755,37 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:s12IdentifiableP2id2IDQzvp"></a>
-                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
-                    <a class="token" href="#/s:s12IdentifiableP2id2IDQzvp">id</a>
+                    <a name="/s:11FWFramework11SwiftSpeechO12RecordButtonVAEycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework11SwiftSpeechO12RecordButtonVAEycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7SwiftUI4ViewP4body4BodyQzvp"></a>
+                    <a name="//apple_ref/swift/Property/body" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP4body4BodyQzvp">body</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2768,225 +2799,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">UUID</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV13dynamicMemberxSgs7KeyPathCyAA0C10RecognizerCxG_tcluip"></a>
-                    <a name="//apple_ref/swift/Method/subscript(dynamicMember:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV13dynamicMemberxSgs7KeyPathCyAA0C10RecognizerCxG_tcluip">subscript(dynamicMember:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">subscript</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">dynamicMember</span> <span class="nv">keyPath</span><span class="p">:</span> <span class="kt">KeyPath</span><span class="o">&lt;</span><span class="kt"><a href="../../Classes/SpeechRecognizer.html">SpeechRecognizer</a></span><span class="p">,</span> <span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">T</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV2id13configurationAE10Foundation4UUIDV_AE13ConfigurationVtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(id:configuration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV2id13configurationAE10Foundation4UUIDV_AE13ConfigurationVtcfc">init(id:<wbr>configuration:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">UUID</span> <span class="o">=</span> <span class="kt">UUID</span><span class="p">(),</span> <span class="nv">configuration</span><span class="p">:</span> <span class="kt"><a href="../../Structs/SwiftSpeech/Session/Configuration.html">Configuration</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV2id6localeAE10Foundation4UUIDV_AH6LocaleVtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(id:locale:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV2id6localeAE10Foundation4UUIDV_AH6LocaleVtcfc">init(id:<wbr>locale:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">UUID</span> <span class="o">=</span> <span class="kt">UUID</span><span class="p">(),</span> <span class="nv">locale</span><span class="p">:</span> <span class="kt">Locale</span> <span class="o">=</span> <span class="o">.</span><span class="n">current</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV14startRecordingyyF"></a>
-                    <a name="//apple_ref/swift/Method/startRecording()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV14startRecordingyyF">startRecording()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">startRecording</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV13stopRecordingyyF"></a>
-                    <a name="//apple_ref/swift/Method/stopRecording()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV13stopRecordingyyF">stopRecording()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopRecording</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV6cancelyyF"></a>
-                    <a name="//apple_ref/swift/Method/cancel()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV6cancelyyF">cancel()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">cancel</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV13ConfigurationV"></a>
-                    <a name="//apple_ref/swift/Struct/Configuration" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV13ConfigurationV">Configuration</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="../../Structs/SwiftSpeech/Session/Configuration.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Configuration</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework11SwiftSpeechV7SessionV05AudioD13ConfigurationV"></a>
-                    <a name="//apple_ref/swift/Struct/AudioSessionConfiguration" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework11SwiftSpeechV7SessionV05AudioD13ConfigurationV">AudioSessionConfiguration</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="../../Structs/SwiftSpeech/Session/AudioSessionConfiguration.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">AudioSessionConfiguration</span> <span class="p">:</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -2998,7 +2812,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-06-20)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-07-05)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
