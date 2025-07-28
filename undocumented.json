@@ -16214,56 +16214,56 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 365,
+      "line": 375,
       "symbol": "GuideViewItem.sourceView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 366,
+      "line": 376,
       "symbol": "GuideViewItem.rect",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 367,
+      "line": 377,
       "symbol": "GuideViewItem.arrowImage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 368,
+      "line": 378,
       "symbol": "GuideViewItem.image",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 369,
+      "line": 379,
       "symbol": "GuideViewItem.text",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 371,
+      "line": 381,
       "symbol": "GuideViewItem.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 373,
+      "line": 383,
       "symbol": "GuideViewItem.init(sourceView:arrowImage:text:image:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Module/View/GuideView.swift",
-      "line": 381,
+      "line": 391,
       "symbol": "GuideViewItem.init(rect:arrowImage:text:image:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

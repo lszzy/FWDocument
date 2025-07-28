@@ -17,7 +17,7 @@
     <a title="Wrapper Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 8.1.0 Docs</a> (63% documented)</p>
+        <p><a href="../index.html">FWFramework 8.2.0 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -19001,6 +19001,127 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
+                <a name="/Darwin"></a>
+                <a name="//apple_ref/swift/Section/Darwin" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Darwin"></a>
+                  <h3 class="section-name"><span>Darwin</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE22postDarwinNotificationyySo18NSNotificationNameaFZ"></a>
+                    <a name="//apple_ref/swift/Method/postDarwinNotification(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE22postDarwinNotificationyySo18NSNotificationNameaFZ">postDarwinNotification(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>发送跨进程darwin通知（比如主App和Extension）</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">postDarwinNotification</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">Notification</span><span class="o">.</span><span class="kt">Name</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE25observeDarwinNotification_5blockySo18NSNotificationNamea_yAHYbctFZ"></a>
+                    <a name="//apple_ref/swift/Method/observeDarwinNotification(_:block:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE25observeDarwinNotification_5blockySo18NSNotificationNamea_yAHYbctFZ">observeDarwinNotification(_:<wbr>block:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>监听跨进程darwin通知，无需手动移除监听</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">observeDarwinNotification</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">Notification</span><span class="o">.</span><span class="kt">Name</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Notification</span><span class="o">.</span><span class="kt">Name</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE27unobserveDarwinNotificationyySo18NSNotificationNameaFZ"></a>
+                    <a name="//apple_ref/swift/Method/unobserveDarwinNotification(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE27unobserveDarwinNotificationyySo18NSNotificationNameaFZ">unobserveDarwinNotification(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>手动移除指定跨进程darwin通知监听</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">unobserveDarwinNotification</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">Notification</span><span class="o">.</span><span class="kt">Name</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE31unobserveAllDarwinNotificationsyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/unobserveAllDarwinNotifications()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAARlzCAA0B10CompatibleRzlE31unobserveAllDarwinNotificationsyyFZ">unobserveAllDarwinNotifications()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>手动移除所有跨进程darwin通知监听</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">unobserveAllDarwinNotifications</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
                 <a name="/Available%20where%20%60Base%60%3A%20%60NSObject%60"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `NSObject`" class="dashAnchor"></a>
                 <div class="section-name-container">
@@ -36070,7 +36191,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>文档路径，iTunes会同步备份</p>
+                        <p>文档路径，iTunes会同步备份，用户可见数据</p>
 
                       </div>
                       <div class="declaration">
@@ -36078,6 +36199,33 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">pathDocument</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo13NSFileManagerCRbzlE22pathApplicationSupportSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/pathApplicationSupport" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo13NSFileManagerCRbzlE22pathApplicationSupportSSvpZ">pathApplicationSupport</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>应用支持路径，iTunes会同步备份，用户不可见数据</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">pathApplicationSupport</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -36097,7 +36245,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>缓存路径，系统不会删除，iTunes会删除</p>
+                        <p>缓存路径，iTunes不会备份，可能会被系统清理</p>
 
                       </div>
                       <div class="declaration">
@@ -36132,33 +36280,6 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">pathLibrary</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11FWFramework7WrapperCAASo13NSFileManagerCRbzlE14pathPreferenceSSvpZ"></a>
-                    <a name="//apple_ref/swift/Variable/pathPreference" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11FWFramework7WrapperCAASo13NSFileManagerCRbzlE14pathPreferenceSSvpZ">pathPreference</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>配置路径，配置文件保存位置</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">pathPreference</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -55566,7 +55687,7 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-07-05)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-07-28)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
