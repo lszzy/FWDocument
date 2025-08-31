@@ -366,6 +366,20 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/Model/SmartModel.swift",
+      "line": 53,
+      "symbol": "AnyArchivable.archiveDecode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/Model/SmartModel.swift",
+      "line": 57,
+      "symbol": "AnyArchivable.archiveEncode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/Model/SmartModel.swift",
       "line": 63,
       "symbol": "SmartDecodable",
       "symbol_kind": "source.lang.swift.decl.extension",
@@ -530,6 +544,13 @@
       "line": 728,
       "symbol": "SmartCaseDefaultable",
       "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/Model/SmartModel.swift",
+      "line": 729,
+      "symbol": "SmartCaseDefaultable.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -1187,13 +1208,6 @@
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/View/BlocConsumer.swift",
       "line": 220,
       "symbol": "Transition.event",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/View/BlocConsumer.swift",
-      "line": 222,
-      "symbol": "Transition.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -3144,27 +3158,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheFile.swift",
-      "line": 77,
-      "symbol": "CacheFile.clearCache(forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheFile.swift",
-      "line": 90,
-      "symbol": "CacheFile.clearAllCaches()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheFile.swift",
-      "line": 94,
-      "symbol": "CacheFile.readCacheKeys()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheKeychain.swift",
       "line": 19,
       "symbol": "CacheKeychain.init()",
@@ -3182,27 +3175,6 @@
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheKeychain.swift",
       "line": 37,
       "symbol": "CacheKeychain.writeCache(_:forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheKeychain.swift",
-      "line": 49,
-      "symbol": "CacheKeychain.clearCache(forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheKeychain.swift",
-      "line": 61,
-      "symbol": "CacheKeychain.clearAllCaches()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheKeychain.swift",
-      "line": 65,
-      "symbol": "CacheKeychain.readCacheKeys()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -3249,27 +3221,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheMemory.swift",
-      "line": 26,
-      "symbol": "CacheMemory.clearCache(forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheMemory.swift",
-      "line": 30,
-      "symbol": "CacheMemory.clearAllCaches()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheMemory.swift",
-      "line": 34,
-      "symbol": "CacheMemory.readCacheKeys()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheSqlite.swift",
       "line": 21,
       "symbol": "CacheSqlite.init()",
@@ -3291,27 +3242,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheSqlite.swift",
-      "line": 114,
-      "symbol": "CacheSqlite.clearCache(forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheSqlite.swift",
-      "line": 131,
-      "symbol": "CacheSqlite.clearAllCaches()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheSqlite.swift",
-      "line": 145,
-      "symbol": "CacheSqlite.readCacheKeys()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheUserDefaults.swift",
       "line": 35,
       "symbol": "CacheUserDefaults.readCache(forKey:)",
@@ -3322,27 +3252,6 @@
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheUserDefaults.swift",
       "line": 43,
       "symbol": "CacheUserDefaults.writeCache(_:forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheUserDefaults.swift",
-      "line": 52,
-      "symbol": "CacheUserDefaults.clearCache(forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheUserDefaults.swift",
-      "line": 57,
-      "symbol": "CacheUserDefaults.clearAllCaches()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cache/CacheUserDefaults.swift",
-      "line": 67,
-      "symbol": "CacheUserDefaults.readCacheKeys()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -3568,13 +3477,6 @@
       "line": 164,
       "symbol": "HTTPSessionManager.dataTask(httpMethod:urlString:parameters:headers:uploadProgress:downloadProgress:success:failure:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Network/HTTPSessionManager.swift",
-      "line": 202,
-      "symbol": "HTTPSessionManager.description",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
@@ -4898,13 +4800,6 @@
       "line": 531,
       "symbol": "URLSessionManager.urlSession(_:downloadTask:didResumeAtOffset:expectedTotalBytes:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Network/URLSessionManager.swift",
-      "line": 539,
-      "symbol": "URLSessionManager.description",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
@@ -6273,6 +6168,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Coding/Codable.swift",
+      "line": 878,
+      "symbol": "DefaultCaseCodable.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Coding/JSON.swift",
       "line": 12,
       "symbol": "Wrapper.safeJSON",
@@ -7446,20 +7348,6 @@
       "line": 53,
       "symbol": "WeakProxy.conforms(to:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Kernel/Proxy.swift",
-      "line": 57,
-      "symbol": "WeakProxy.description",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Kernel/Proxy.swift",
-      "line": 61,
-      "symbol": "WeakProxy.debugDescription",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
@@ -9472,6 +9360,699 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 15,
+      "symbol": "CloudDriveObserver",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 16,
+      "symbol": "CloudDriveObserver.cloudDriveDidChange(_:rootRelativePaths:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 19,
+      "symbol": "CloudDriveConflictResolver",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 20,
+      "symbol": "CloudDriveConflictResolver.cloudDrive(_:resolveConflictAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 27,
+      "symbol": "CloudDrive.Storage.iCloudContainer(containerIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 28,
+      "symbol": "CloudDrive.Storage.localDirectory(rootURL:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 64,
+      "symbol": "CloudDrive.rootDirectory",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 246,
+      "symbol": "CoordinatedFileManager",
+      "symbol_kind": "source.lang.swift.decl.actor",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 251,
+      "symbol": "CoordinatedFileManager.init(presenter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 255,
+      "symbol": "CoordinatedFileManager.fileExists(coordinatingAccessAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 264,
+      "symbol": "CoordinatedFileManager.createDirectory(coordinatingAccessAt:withIntermediateDirectories:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 270,
+      "symbol": "CoordinatedFileManager.removeItem(coordinatingAccessAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 276,
+      "symbol": "CoordinatedFileManager.copyItem(coordinatingAccessFrom:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 282,
+      "symbol": "CoordinatedFileManager.contentsOfDirectory(coordinatingAccessAt:includingPropertiesForKeys:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 288,
+      "symbol": "CoordinatedFileManager.contentsOfFile(coordinatingAccessAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 296,
+      "symbol": "CoordinatedFileManager.write(_:coordinatingAccessTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 302,
+      "symbol": "CoordinatedFileManager.updateFile(coordinatingAccessTo:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 308,
+      "symbol": "CoordinatedFileManager.readFile(coordinatingAccessTo:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 390,
+      "symbol": "RootRelativePath",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 391,
+      "symbol": "RootRelativePath.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 393,
+      "symbol": "RootRelativePath.init(path:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 397,
+      "symbol": "RootRelativePath.fileURL(forRoot:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 404,
+      "symbol": "RootRelativePath.directoryURL(forRoot:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 411,
+      "symbol": "RootRelativePath.appending(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 420,
+      "symbol": "CloudDriveError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 421,
+      "symbol": "CloudDriveError.couldNotAccessUbiquityContainer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 422,
+      "symbol": "CloudDriveError.queriedWhileNotConnected",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 423,
+      "symbol": "CloudDriveError.rootDirectoryURLIsNotDirectory",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 424,
+      "symbol": "CloudDriveError.notSignedIntoCloud",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 425,
+      "symbol": "CloudDriveError.invalidMetadata",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 426,
+      "symbol": "CloudDriveError.invalidFileType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudDrive.swift",
+      "line": 427,
+      "symbol": "CloudDriveError.foundationError(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 22,
+      "symbol": "CloudStorage.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 27,
+      "symbol": "CloudStorage.projectedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 31,
+      "symbol": "CloudStorage.init(keyName:syncGet:syncSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 35,
+      "symbol": "CloudStorage.subscript(_enclosingInstance:wrapped:storage:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 99,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 109,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 119,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 129,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 139,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 149,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 159,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 169,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 179,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 189,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 199,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 209,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 219,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 229,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 239,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 249,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 259,
+      "symbol": "CloudStorage.init(wrappedValue:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 269,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 279,
+      "symbol": "CloudStorage.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 290,
+      "symbol": "CloudStorageSync",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 291,
+      "symbol": "CloudStorageSync.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 296,
+      "symbol": "CloudStorageSync.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 365,
+      "symbol": "CloudStorageSync",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 366,
+      "symbol": "CloudStorageSync.object(forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 370,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 374,
+      "symbol": "CloudStorageSync.remove(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 378,
+      "symbol": "CloudStorageSync.string(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 382,
+      "symbol": "CloudStorageSync.url(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 386,
+      "symbol": "CloudStorageSync.array(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 390,
+      "symbol": "CloudStorageSync.dictionary(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 394,
+      "symbol": "CloudStorageSync.date(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 399,
+      "symbol": "CloudStorageSync.data(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 403,
+      "symbol": "CloudStorageSync.int(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 408,
+      "symbol": "CloudStorageSync.int64(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 413,
+      "symbol": "CloudStorageSync.double(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 418,
+      "symbol": "CloudStorageSync.bool(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 423,
+      "symbol": "CloudStorageSync.rawRepresentable(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 428,
+      "symbol": "CloudStorageSync.rawRepresentable(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 434,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 439,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 444,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 449,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 454,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 459,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 464,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 469,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 474,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 479,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 484,
+      "symbol": "CloudStorageSync.set(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 490,
+      "symbol": "CloudStorageSync",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 491,
+      "symbol": "CloudStorageSync.ChangeReason",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 492,
+      "symbol": "CloudStorageSync.ChangeReason.serverChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 493,
+      "symbol": "CloudStorageSync.ChangeReason.initialSyncChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 494,
+      "symbol": "CloudStorageSync.ChangeReason.quotaViolationChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 495,
+      "symbol": "CloudStorageSync.ChangeReason.accountChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 514,
+      "symbol": "CloudStorageSync.Status",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 515,
+      "symbol": "CloudStorageSync.Status.Source",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 516,
+      "symbol": "CloudStorageSync.Status.Source.initial",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 517,
+      "symbol": "CloudStorageSync.Status.Source.localChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 518,
+      "symbol": "CloudStorageSync.Status.Source.externalChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 521,
+      "symbol": "CloudStorageSync.Status.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 522,
+      "symbol": "CloudStorageSync.Status.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Cloud/CloudStorage.swift",
+      "line": 523,
+      "symbol": "CloudStorageSync.Status.keys",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Lottie/LottiePluginView.swift",
       "line": 74,
       "symbol": "LottiePluginView.init(frame:)",
@@ -9536,27 +10117,6 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/MMKV/CacheMMKV.swift",
-      "line": 101,
-      "symbol": "CacheMMKV.clearCache(forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/MMKV/CacheMMKV.swift",
-      "line": 105,
-      "symbol": "CacheMMKV.clearAllCaches()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/MMKV/CacheMMKV.swift",
-      "line": 115,
-      "symbol": "CacheMMKV.readCacheKeys()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/MMKV/CacheMMKV.swift",
       "line": 204,
       "symbol": "MMAPValue.init(wrappedValue:_:defaultValue:mmapID:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
@@ -9574,6 +10134,20 @@
       "line": 228,
       "symbol": "MMAPValue.wrappedValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/ObjectMapper/MappableModel.swift",
+      "line": 20,
+      "symbol": "AnyArchivable.archiveDecode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/ObjectMapper/MappableModel.swift",
+      "line": 25,
+      "symbol": "AnyArchivable.archiveEncode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -23767,13 +24341,6 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/PlayerCache.swift",
-      "line": 692,
-      "symbol": "PlayerCacheContentInfo.debugDescription",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/PlayerCache.swift",
       "line": 698,
       "symbol": "PlayerCacheAtionType",
       "symbol_kind": "source.lang.swift.decl.enum",
@@ -23839,13 +24406,6 @@
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/PlayerCache.swift",
       "line": 727,
       "symbol": "PlayerCacheAction.hash",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/PlayerCache.swift",
-      "line": 731,
-      "symbol": "PlayerCacheAction.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
