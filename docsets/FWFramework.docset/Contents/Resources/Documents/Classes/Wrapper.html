@@ -17,7 +17,7 @@
     <a title="Wrapper Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 9.0.0 Docs</a> (63% documented)</p>
+        <p><a href="../index.html">FWFramework 9.1.0 Docs</a> (62% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -38,6 +38,14 @@
     <div class="content-wrapper">
       <nav class="sidebar">
         <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Actors/CoordinatedFileManager.html">CoordinatedFileManager</a>
+              </li>
+            </ul>
+          </li>
           <li class="nav-group-name">
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
@@ -271,6 +279,21 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Change.html">Change</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudDrive.html">CloudDrive</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudDrive/Storage.html">– Storage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudStorageSync.html">CloudStorageSync</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudStorageSync/ChangeReason.html">– ChangeReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudStorageSync/Status.html">– Status</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/CollectionViewAlignLayout.html">CollectionViewAlignLayout</a>
@@ -1094,6 +1117,9 @@
                 <a href="../Enums/BarrageRenderStatus.html">BarrageRenderStatus</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/CloudDriveError.html">CloudDriveError</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/CollectionViewItemsDirection.html">CollectionViewItemsDirection</a>
               </li>
               <li class="nav-group-task">
@@ -1805,6 +1831,12 @@
                 <a href="../Protocols/ChainRequestDelegate.html">ChainRequestDelegate</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/CloudDriveConflictResolver.html">CloudDriveConflictResolver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CloudDriveObserver.html">CloudDriveObserver</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/CodableDecodingConverter.html">CodableDecodingConverter</a>
               </li>
               <li class="nav-group-task">
@@ -2257,6 +2289,9 @@
                 <a href="../Structs/CachedValue.html">CachedValue</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/CloudStorage.html">CloudStorage</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs.html#/s:11FWFramework15ColorPickerTypeV">ColorPickerType</a>
               </li>
               <li class="nav-group-task">
@@ -2504,6 +2539,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/RemovableModifier.html">RemovableModifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RootRelativePath.html">RootRelativePath</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/RoundedCornerShape.html">RoundedCornerShape</a>
@@ -10167,6 +10205,929 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%603"></a>
+                <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%603"></a>
+                  <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showAlert5error6cancelys5Error_pSg_AA25AttributedStringParameter_pSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showAlert(error:cancel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showAlert5error6cancelys5Error_pSg_AA25AttributedStringParameter_pSgtYaF">showAlert(error:<wbr>cancel:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>异步显示错误警告框</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showAlert</span><span class="p">(</span>
+    <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>错误对象</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认关闭</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showAlert5title7message5style6cancelyAA25AttributedStringParameter_pSg_AlA0F5StyleVALtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showAlert(title:message:style:cancel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showAlert5title7message5style6cancelyAA25AttributedStringParameter_pSg_AlA0F5StyleVALtYaF">showAlert(title:<wbr>message:<wbr>style:<wbr>cancel:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示警告框(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showAlert</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/AlertStyle.html">AlertStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>style</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框样式</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认关闭</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showAlert5title7message5style6cancel7actionsSiSgAA25AttributedStringParameter_pSg_AnA0F5StyleVANSayAaM_pGSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showAlert(title:message:style:cancel:actions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showAlert5title7message5style6cancel7actionsSiSgAA25AttributedStringParameter_pSg_AnA0F5StyleVANSayAaM_pGSgtYaF">showAlert(title:<wbr>message:<wbr>style:<wbr>cancel:<wbr>actions:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示警告框(详细版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showAlert</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/AlertStyle.html">AlertStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">actions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">]?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>style</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框样式</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认单按钮关闭，多按钮取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>动作按钮标题列表</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showConfirm5title7messageSbAA25AttributedStringParameter_pSg_AJtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showConfirm(title:message:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showConfirm5title7messageSbAA25AttributedStringParameter_pSg_AJtYaF">showConfirm(title:<wbr>message:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示确认框(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showConfirm</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showConfirm5title7message6cancel7confirmSbAA25AttributedStringParameter_pSg_A3LtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showConfirm(title:message:cancel:confirm:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showConfirm5title7message6cancel7confirmSbAA25AttributedStringParameter_pSg_A3LtYaF">showConfirm(title:<wbr>message:<wbr>cancel:<wbr>confirm:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示确认框(详细版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showConfirm</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">confirm</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮文字，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认按钮文字，默认确定</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE10showPrompt5title7message6cancel7confirm11promptBlockSSSgAA25AttributedStringParameter_pSg_A3NySo11UITextFieldCYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showPrompt(title:message:cancel:confirm:promptBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE10showPrompt5title7message6cancel7confirm11promptBlockSSSgAA25AttributedStringParameter_pSg_A3NySo11UITextFieldCYbScMYccSgtYaF">showPrompt(title:<wbr>message:<wbr>cancel:<wbr>confirm:<wbr>promptBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示输入框(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showPrompt</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">confirm</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">promptBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">UITextField</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮文字，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认按钮文字，默认确定</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>promptBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框初始化事件，参数为输入框</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE10showPrompt5title7message6cancel7confirm11promptCount0K5BlockSaySSGSgAA25AttributedStringParameter_pSg_A3PSiySo11UITextFieldC_SitYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showPrompt(title:message:cancel:confirm:promptCount:promptBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE10showPrompt5title7message6cancel7confirm11promptCount0K5BlockSaySSGSgAA25AttributedStringParameter_pSg_A3PSiySo11UITextFieldC_SitYbScMYccSgtYaF">showPrompt(title:<wbr>message:<wbr>cancel:<wbr>confirm:<wbr>promptCount:<wbr>promptBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示输入框(详细版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showPrompt</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">confirm</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">promptCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span>
+    <span class="nv">promptBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">UITextField</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮文字，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认按钮文字，默认确定</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>promptCount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框数量</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>promptBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框初始化事件，参数为输入框和索引index</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showSheet5title7message6cancelyAA25AttributedStringParameter_pSg_A2KtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showSheet(title:message:cancel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showSheet5title7message6cancelyAA25AttributedStringParameter_pSg_A2KtYaF">showSheet(title:<wbr>message:<wbr>cancel:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示操作表(无动作)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showSheet</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showSheet5title7message7actionsSiSgAA25AttributedStringParameter_pSg_ALSayAaK_pGSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showSheet(title:message:actions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showSheet5title7message7actionsSiSgAA25AttributedStringParameter_pSg_ALSayAaK_pGSgtYaF">showSheet(title:<wbr>message:<wbr>actions:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示操作表(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showSheet</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">actions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">]?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>动作按钮标题列表</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showSheet5title7message6cancel7actions12currentIndex11customBlockSiSgAA25AttributedStringParameter_pSg_A2OSayAaN_pGSgSiyypYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showSheet(title:message:cancel:actions:currentIndex:customBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE9showSheet5title7message6cancel7actions12currentIndex11customBlockSiSgAA25AttributedStringParameter_pSg_A2OSayAaN_pGSgSiyypYbScMYccSgtYaF">showSheet(title:<wbr>message:<wbr>cancel:<wbr>actions:<wbr>currentIndex:<wbr>customBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示操作表(完整版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showSheet</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">actions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">]?,</span>
+    <span class="nv">currentIndex</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+    <span class="nv">customBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认Alert单按钮关闭，Alert多按钮或Sheet取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>动作按钮标题列表</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currentIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>当前选中动作索引，默认-1</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>自定义弹出框事件</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
                 <a name="/Available%20where%20%60Base%60%3A%20%60UIView%606"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
@@ -10176,6 +11137,916 @@
                 </div>
               </div>
               <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showAlert5error6cancelys5Error_pSg_AA25AttributedStringParameter_pSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showAlert(error:cancel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showAlert5error6cancelys5Error_pSg_AA25AttributedStringParameter_pSgtYaF">showAlert(error:<wbr>cancel:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示错误警告框</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showAlert</span><span class="p">(</span>
+    <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>错误对象</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认关闭</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showAlert5title7message5style6cancelyAA25AttributedStringParameter_pSg_AlA0E5StyleVALtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showAlert(title:message:style:cancel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showAlert5title7message5style6cancelyAA25AttributedStringParameter_pSg_AlA0E5StyleVALtYaF">showAlert(title:<wbr>message:<wbr>style:<wbr>cancel:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示警告框(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showAlert</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/AlertStyle.html">AlertStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>style</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框样式</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认关闭</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showAlert5title7message5style6cancel7actionsSiSgAA25AttributedStringParameter_pSg_AnA0E5StyleVANSayAaM_pGSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showAlert(title:message:style:cancel:actions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showAlert5title7message5style6cancel7actionsSiSgAA25AttributedStringParameter_pSg_AnA0E5StyleVANSayAaM_pGSgtYaF">showAlert(title:<wbr>message:<wbr>style:<wbr>cancel:<wbr>actions:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示警告框(详细版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showAlert</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/AlertStyle.html">AlertStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">actions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">]?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>style</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>警告框样式</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认单按钮关闭，多按钮取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>动作按钮标题列表</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showConfirm5title7messageSbAA25AttributedStringParameter_pSg_AJtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showConfirm(title:message:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showConfirm5title7messageSbAA25AttributedStringParameter_pSg_AJtYaF">showConfirm(title:<wbr>message:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示确认框(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showConfirm</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showConfirm5title7message6cancel7confirmSbAA25AttributedStringParameter_pSg_A3LtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showConfirm(title:message:cancel:confirm:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showConfirm5title7message6cancel7confirmSbAA25AttributedStringParameter_pSg_A3LtYaF">showConfirm(title:<wbr>message:<wbr>cancel:<wbr>confirm:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示确认框(详细版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showConfirm</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">confirm</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮文字，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认按钮文字，默认确定</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE10showPrompt5title7message6cancel7confirm11promptBlockSSSgAA25AttributedStringParameter_pSg_A3NySo11UITextFieldCYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showPrompt(title:message:cancel:confirm:promptBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE10showPrompt5title7message6cancel7confirm11promptBlockSSSgAA25AttributedStringParameter_pSg_A3NySo11UITextFieldCYbScMYccSgtYaF">showPrompt(title:<wbr>message:<wbr>cancel:<wbr>confirm:<wbr>promptBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示输入框(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showPrompt</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">confirm</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">promptBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">UITextField</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮文字，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认按钮文字，默认确定</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>promptBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框初始化事件，参数为输入框</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE10showPrompt5title7message6cancel7confirm11promptCount0J5BlockSaySSGSgAA25AttributedStringParameter_pSg_A3PSiySo11UITextFieldC_SitYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showPrompt(title:message:cancel:confirm:promptCount:promptBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE10showPrompt5title7message6cancel7confirm11promptCount0J5BlockSaySSGSgAA25AttributedStringParameter_pSg_A3PSiySo11UITextFieldC_SitYbScMYccSgtYaF">showPrompt(title:<wbr>message:<wbr>cancel:<wbr>confirm:<wbr>promptCount:<wbr>promptBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示输入框(详细版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showPrompt</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">confirm</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">promptCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span>
+    <span class="nv">promptBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">UITextField</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮文字，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>confirm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>确认按钮文字，默认确定</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>promptCount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框数量</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>promptBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>输入框初始化事件，参数为输入框和索引index</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showSheet5title7message6cancelyAA25AttributedStringParameter_pSg_A2KtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showSheet(title:message:cancel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showSheet5title7message6cancelyAA25AttributedStringParameter_pSg_A2KtYaF">showSheet(title:<wbr>message:<wbr>cancel:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示操作表(无动作)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showSheet</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showSheet5title7message7actionsSiSgAA25AttributedStringParameter_pSg_ALSayAaK_pGSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showSheet(title:message:actions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showSheet5title7message7actionsSiSgAA25AttributedStringParameter_pSg_ALSayAaK_pGSgtYaF">showSheet(title:<wbr>message:<wbr>actions:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示操作表(简单版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showSheet</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">actions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">]?</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>动作按钮标题列表</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showSheet5title7message6cancel7actions12currentIndex11customBlockSiSgAA25AttributedStringParameter_pSg_A2OSayAaN_pGSgSiyypYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showSheet(title:message:cancel:actions:currentIndex:customBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE9showSheet5title7message6cancel7actions12currentIndex11customBlockSiSgAA25AttributedStringParameter_pSg_A2OSayAaN_pGSgSiyypYbScMYccSgtYaF">showSheet(title:<wbr>message:<wbr>cancel:<wbr>actions:<wbr>currentIndex:<wbr>customBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示弹出框(完整版)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showSheet</span><span class="p">(</span>
+    <span class="nv">title</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">cancel</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">actions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">]?,</span>
+    <span class="nv">currentIndex</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+    <span class="nv">customBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表标题</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作表消息</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cancel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>取消按钮标题，默认Alert单按钮关闭，Alert多按钮或Sheet取消</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>动作按钮标题列表</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currentIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>当前选中动作索引，默认-1</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>自定义弹出框事件</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -10486,10 +12357,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%603"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%604"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%603"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%604"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -12074,10 +13945,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%604"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%605"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%604"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%605"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -13241,10 +15112,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%605"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%606"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%605"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%606"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -14988,10 +16859,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%606"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%607"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%606"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%607"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -15986,6 +17857,246 @@
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
                   <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6011"></a>
+                  <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showMessage5errorys5Error_pSg_tYaF"></a>
+                    <a name="//apple_ref/swift/Method/showMessage(error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showMessage5errorys5Error_pSg_tYaF">showMessage(error:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>异步显示错误消息吐司，自动隐藏</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showMessage</span><span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showMessage4text6detail5style11customBlockyAA25AttributedStringParameter_pSg_AlA10ToastStyleVyypYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showMessage(text:detail:style:customBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo6UIViewCRbzlE11showMessage4text6detail5style11customBlockyAA25AttributedStringParameter_pSg_AlA10ToastStyleVyypYbScMYccSgtYaF">showMessage(text:<wbr>detail:<wbr>style:<wbr>customBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>异步显示指定样式消息吐司，自动隐藏，支持String和AttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showMessage</span><span class="p">(</span>
+    <span class="nv">text</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">detail</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">customBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%608"></a>
+                <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%608"></a>
+                  <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showMessage5errorys5Error_pSg_tYaF"></a>
+                    <a name="//apple_ref/swift/Method/showMessage(error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showMessage5errorys5Error_pSg_tYaF">showMessage(error:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>异步显示错误消息吐司，自动隐藏</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showMessage</span><span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showMessage4text6detail5style11customBlockyAA25AttributedStringParameter_pSg_AlA10ToastStyleVyypYbScMYccSgtYaF"></a>
+                    <a name="//apple_ref/swift/Method/showMessage(text:detail:style:customBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo16UIViewControllerCRbzlE11showMessage4text6detail5style11customBlockyAA25AttributedStringParameter_pSg_AlA10ToastStyleVyypYbScMYccSgtYaF">showMessage(text:<wbr>detail:<wbr>style:<wbr>customBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>异步显示指定样式消息吐司，自动隐藏，支持String和AttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showMessage</span><span class="p">(</span>
+    <span class="nv">text</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">detail</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">customBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIWindow%602"></a>
+                <a name="//apple_ref/swift/Section/Available where `Base`: `UIWindow`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIWindow%602"></a>
+                  <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIWindow</code></span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo8UIWindowCRbzlE11showMessage5errorys5Error_pSg_tYaF"></a>
+                    <a name="//apple_ref/swift/Method/showMessage(error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo8UIWindowCRbzlE11showMessage5errorys5Error_pSg_tYaF">showMessage(error:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>异步显示错误消息吐司，自动隐藏</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">showMessage</span><span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11FWFramework7WrapperCAASo8UIWindowCRbzlE11showMessage4text6detail5style11customBlockyAA25AttributedStringParameter_pSg_AlA10ToastStyleVyypYbScMYccSgtYaFZ"></a>
+                    <a name="//apple_ref/swift/Method/showMessage(text:detail:style:customBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11FWFramework7WrapperCAASo8UIWindowCRbzlE11showMessage4text6detail5style11customBlockyAA25AttributedStringParameter_pSg_AlA10ToastStyleVyypYbScMYccSgtYaFZ">showMessage(text:<wbr>detail:<wbr>style:<wbr>customBlock:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>异步显示指定样式消息吐司，自动隐藏，支持String和AttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">showMessage</span><span class="p">(</span>
+    <span class="nv">text</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?,</span>
+    <span class="nv">detail</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AttributedStringParameter.html">AttributedStringParameter</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Structs/ToastStyle.html">ToastStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">customBlock</span><span class="p">:</span> <span class="p">(</span><span class="kd">@MainActor</span> <span class="kd">@Sendable</span> <span class="p">(</span><span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="k">async</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6012"></a>
+                <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6012"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -27033,10 +29144,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6012"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6013"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6012"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6013"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -27074,10 +29185,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%607"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%609"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%607"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%609"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -31116,10 +33227,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6013"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6014"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6013"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6014"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -32391,10 +34502,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%608"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6010"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%608"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6010"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -33447,10 +35558,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6014"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6015"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6014"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6015"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -33942,10 +36053,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%609"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6011"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%609"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6011"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -35964,7 +38075,7 @@
                         <p>正则替换字符串</p>
 
 <p>@param regex  正则表达式
-  @param string 替换模板，如&quot;头部$1中部$2尾部&ldquo;</p>
+  @param string 替换模板，如&quot;头部$1中部$2尾部&quot;</p>
 
 <p>@return 替换后的字符串</p>
 
@@ -40719,10 +42830,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6015"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6016"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6015"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6016"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -46366,10 +48477,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6016"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6017"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6016"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6017"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -46715,10 +48826,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6010"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6012"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6010"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6012"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -47861,10 +49972,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6017"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6018"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6017"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6018"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -49189,10 +51300,10 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIWindow%602"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIWindow%603"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIWindow`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIWindow%602"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIWindow%603"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIWindow</code></span>
 </h3>
                 </div>
@@ -53957,10 +56068,10 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6011"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6013"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6011"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6013"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -54506,10 +56617,10 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6012"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6014"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6012"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6014"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -54797,10 +56908,10 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6018"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6019"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6018"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6019"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -54975,10 +57086,10 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6019"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIView%6020"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIView`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6019"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIView%6020"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIView</code></span>
 </h3>
                 </div>
@@ -55128,10 +57239,10 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6013"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6015"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6013"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6015"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -55563,10 +57674,10 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6014"></a>
+                <a name="/Available%20where%20%60Base%60%3A%20%60UIViewController%6016"></a>
                 <a name="//apple_ref/swift/Section/Available where `Base`: `UIViewController`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6014"></a>
+                  <a class="section-name-link" href="#/Available%20where%20%60Base%60%3A%20%60UIViewController%6016"></a>
                   <h3 class="section-name"><span>Available where <code>Base</code>: <code>UIViewController</code></span>
 </h3>
                 </div>
@@ -55730,7 +57841,7 @@ contentEdgeInsets: 内容边距，setImageEdge时不影响，sizeThatFits包含<
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-08-17)</p>
+          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-08-31)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
