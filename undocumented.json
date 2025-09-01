@@ -3257,121 +3257,51 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 38,
+      "line": 30,
       "symbol": "AuthorizeType.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 129,
-      "symbol": "AuthorizeLocation.shared",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 130,
-      "symbol": "AuthorizeLocation.always",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 132,
-      "symbol": "AuthorizeLocation.locationManager",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 141,
-      "symbol": "AuthorizeLocation.init(isAlways:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 185,
-      "symbol": "AuthorizeLocation.locationManagerDidChangeAuthorization(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 195,
-      "symbol": "AuthorizeLocation.locationManager(_:didChangeAuthorization:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 209,
+      "line": 115,
       "symbol": "AuthorizePhotoLibrary.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 210,
+      "line": 116,
       "symbol": "AuthorizePhotoLibrary.addOnly",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 214,
+      "line": 120,
       "symbol": "AuthorizePhotoLibrary.init(addOnly:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 262,
+      "line": 168,
       "symbol": "AuthorizeCamera.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 297,
+      "line": 203,
       "symbol": "AuthorizeNotifications.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 299,
+      "line": 205,
       "symbol": "AuthorizeNotifications.authorizeOptions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Authorize.swift",
-      "line": 360,
-      "symbol": "AuthorizeMicrophone.shared",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Location.swift",
-      "line": 235,
-      "symbol": "LocationManager.locationManager(_:didUpdateLocations:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Location.swift",
-      "line": 263,
-      "symbol": "LocationManager.locationManager(_:didUpdateHeading:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Service/Cocoa/Location.swift",
-      "line": 288,
-      "symbol": "LocationManager.locationManager(_:didFailWithError:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -9332,6 +9262,76 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/AuthorizeLocation.swift",
+      "line": 24,
+      "symbol": "AuthorizeLocation.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/AuthorizeLocation.swift",
+      "line": 25,
+      "symbol": "AuthorizeLocation.always",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/AuthorizeLocation.swift",
+      "line": 27,
+      "symbol": "AuthorizeLocation.locationManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/AuthorizeLocation.swift",
+      "line": 36,
+      "symbol": "AuthorizeLocation.init(isAlways:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/AuthorizeLocation.swift",
+      "line": 80,
+      "symbol": "AuthorizeLocation.locationManagerDidChangeAuthorization(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/AuthorizeLocation.swift",
+      "line": 90,
+      "symbol": "AuthorizeLocation.locationManager(_:didChangeAuthorization:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/Location.swift",
+      "line": 235,
+      "symbol": "LocationManager.locationManager(_:didUpdateLocations:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/Location.swift",
+      "line": 263,
+      "symbol": "LocationManager.locationManager(_:didUpdateHeading:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Location/Location.swift",
+      "line": 288,
+      "symbol": "LocationManager.locationManager(_:didFailWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Microphone/AuthorizeMicrophone.swift",
+      "line": 22,
+      "symbol": "AuthorizeMicrophone.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Motion/AuthorizeMotion.swift",
       "line": 22,
       "symbol": "AuthorizeMotion.shared",
@@ -9346,10 +9346,773 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 20,
+      "symbol": "AudioRecorder.RecordBackState.isRecording",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 21,
+      "symbol": "AudioRecorder.RecordBackState.currentPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 22,
+      "symbol": "AudioRecorder.RecordBackState.currentMetering",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 24,
+      "symbol": "AudioRecorder.RecordBackState.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 29,
+      "symbol": "AudioRecorder.PlayBackState.isMuted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 30,
+      "symbol": "AudioRecorder.PlayBackState.currentPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 31,
+      "symbol": "AudioRecorder.PlayBackState.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 32,
+      "symbol": "AudioRecorder.PlayBackState.isFinished",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 34,
+      "symbol": "AudioRecorder.PlayBackState.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 39,
+      "symbol": "AudioRecorder.AudioSettings.sampleRate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 40,
+      "symbol": "AudioRecorder.AudioSettings.formatID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 41,
+      "symbol": "AudioRecorder.AudioSettings.mode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 42,
+      "symbol": "AudioRecorder.AudioSettings.numberOfChannels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 43,
+      "symbol": "AudioRecorder.AudioSettings.encoderAudioQuality",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 44,
+      "symbol": "AudioRecorder.AudioSettings.encoderBitRate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 45,
+      "symbol": "AudioRecorder.AudioSettings.linearPCMBitDepth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 46,
+      "symbol": "AudioRecorder.AudioSettings.linearPCMIsBigEndian",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 47,
+      "symbol": "AudioRecorder.AudioSettings.linearPCMIsFloat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 48,
+      "symbol": "AudioRecorder.AudioSettings.linearPCMIsNonInterleaved",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 50,
+      "symbol": "AudioRecorder.AudioSettings.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 88,
+      "symbol": "AudioRecorder.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 345,
+      "symbol": "AudioRecorder.audioRecorderDidFinishRecording(_:successfully:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AudioRecorder.swift",
+      "line": 353,
+      "symbol": "AudioRecorder.audioRecorderEncodeErrorDidOccur(_:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/AuthorizeSpeech.swift",
       "line": 22,
       "symbol": "AuthorizeSpeech.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 14,
+      "symbol": "SwiftSpeech.ViewModifiers",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 17,
+      "symbol": "SwiftSpeech.defaultAnimation",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 21,
+      "symbol": "SwiftSpeech.requestSpeechRecognitionAuthorization()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 42,
+      "symbol": "SpeechRecognitionAuthStatus",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 47,
+      "symbol": "SpeechRecognitionAuthStatus.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 51,
+      "symbol": "SpeechRecognitionAuthStatus.init(trueValues:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 55,
+      "symbol": "SpeechRecognitionAuthStatus.projectedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 79,
+      "symbol": "EnvironmentValues.swiftSpeechState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 84,
+      "symbol": "EnvironmentValues.actionsOnStartRecording",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 89,
+      "symbol": "EnvironmentValues.actionsOnStopRecording",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 94,
+      "symbol": "EnvironmentValues.actionsOnCancelRecording",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 101,
+      "symbol": "View.onStartRecording(appendAction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 108,
+      "symbol": "View.onStopRecording(appendAction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 115,
+      "symbol": "View.onCancelRecording(appendAction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 124,
+      "symbol": "View.onStartRecording(sendSessionTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 130,
+      "symbol": "View.onStartRecording(sendSessionTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 136,
+      "symbol": "View.onStopRecording(sendSessionTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 142,
+      "symbol": "View.onStopRecording(sendSessionTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 148,
+      "symbol": "View.onCancelRecording(sendSessionTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 154,
+      "symbol": "View.onCancelRecording(sendSessionTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 162,
+      "symbol": "View.swiftSpeechRecordOnHold(sessionConfiguration:animation:distanceToCancel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 176,
+      "symbol": "View.swiftSpeechRecordOnHold(locale:animation:distanceToCancel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 184,
+      "symbol": "View.swiftSpeechToggleRecordingOnTap(sessionConfiguration:animation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 191,
+      "symbol": "View.swiftSpeechToggleRecordingOnTap(locale:animation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 198,
+      "symbol": "View.onRecognize(includePartialResults:handleResult:handleError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 213,
+      "symbol": "View.onRecognizeLatest(includePartialResults:handleResult:handleError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 228,
+      "symbol": "View.onRecognizeLatest(includePartialResults:handleResult:handleError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 240,
+      "symbol": "View.onRecognizeLatest(includePartialResults:update:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 249,
+      "symbol": "View.printRecognizedText(includePartialResults:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 259,
+      "symbol": "Subject.mapResolved(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 269,
+      "symbol": "Subject.mapResolved(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 281,
+      "symbol": "SwiftSpeech.supportedLocales()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 287,
+      "symbol": "SwiftSpeech.State",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 288,
+      "symbol": "SwiftSpeech.State.pending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 289,
+      "symbol": "SwiftSpeech.State.recording",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 290,
+      "symbol": "SwiftSpeech.State.cancelling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 295,
+      "symbol": "SwiftSpeech.RecordButton",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 299,
+      "symbol": "SwiftSpeech.RecordButton.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 347,
+      "symbol": "SwiftSpeech.Session",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 350,
+      "symbol": "SwiftSpeech.Session.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 354,
+      "symbol": "SwiftSpeech.Session.init(id:configuration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 359,
+      "symbol": "SwiftSpeech.Session.init(id:locale:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 363,
+      "symbol": "SwiftSpeech.Session.startRecording()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 368,
+      "symbol": "SwiftSpeech.Session.stopRecording()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 373,
+      "symbol": "SwiftSpeech.Session.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 380,
+      "symbol": "SwiftSpeech.Session",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 381,
+      "symbol": "SwiftSpeech.Session.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 382,
+      "symbol": "SwiftSpeech.Session.Configuration.locale",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 384,
+      "symbol": "SwiftSpeech.Session.Configuration.taskHint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 386,
+      "symbol": "SwiftSpeech.Session.Configuration.shouldReportPartialResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 388,
+      "symbol": "SwiftSpeech.Session.Configuration.requiresOnDeviceRecognition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 390,
+      "symbol": "SwiftSpeech.Session.Configuration.contextualStrings",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 392,
+      "symbol": "SwiftSpeech.Session.Configuration.interactionIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 394,
+      "symbol": "SwiftSpeech.Session.Configuration.audioSessionConfiguration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 396,
+      "symbol": "SwiftSpeech.Session.Configuration.init(locale:taskHint:shouldReportPartialResults:requiresOnDeviceRecognition:contextualStrings:interactionIdentifier:audioSessionConfiguration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 416,
+      "symbol": "SwiftSpeech.Session",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 417,
+      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 418,
+      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.onStartRecording",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 419,
+      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.onStopRecording",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 421,
+      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.init(onStartRecording:onStopRecording:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 426,
+      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.recordOnly",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 433,
+      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.playAndRecord",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 438,
+      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.none",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 442,
+      "symbol": "SpeechRecognizer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 445,
+      "symbol": "SpeechRecognizer.ID",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 449,
+      "symbol": "SpeechRecognizer.sessionConfiguration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 461,
+      "symbol": "SpeechRecognizer.resultPublisher",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 465,
+      "symbol": "SpeechRecognizer.stringPublisher",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 471,
+      "symbol": "SpeechRecognizer.startRecording()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 521,
+      "symbol": "SpeechRecognizer.stopRecording()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 535,
+      "symbol": "SpeechRecognizer.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 549,
+      "symbol": "SpeechRecognizer.new(id:sessionConfiguration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 555,
+      "symbol": "SpeechRecognizer.recognizer(withID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 560,
+      "symbol": "SpeechRecognizer.remove(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 575,
+      "symbol": "SwiftSpeech.FunctionalComponentDelegate",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 580,
+      "symbol": "SwiftSpeech.FunctionalComponentDelegate.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 588,
+      "symbol": "SwiftSpeech.FunctionalComponentDelegate.onStartRecording(session:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 594,
+      "symbol": "SwiftSpeech.FunctionalComponentDelegate.onStopRecording(session:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 600,
+      "symbol": "SwiftSpeech.FunctionalComponentDelegate.onCancelRecording(session:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 609,
+      "symbol": "SwiftSpeech.ViewModifiers",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 610,
+      "symbol": "SwiftSpeech.ViewModifiers.RecordOnHold",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 611,
+      "symbol": "SwiftSpeech.ViewModifiers.RecordOnHold.init(sessionConfiguration:animation:distanceToCancel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 688,
+      "symbol": "SwiftSpeech.ViewModifiers.ToggleRecordingOnTap",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 689,
+      "symbol": "SwiftSpeech.ViewModifiers.ToggleRecordingOnTap.init(sessionConfiguration:animation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 743,
+      "symbol": "SwiftSpeech.ViewModifiers",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWPlugin/Authorize/Speech/SwiftSpeech.swift",
+      "line": 744,
+      "symbol": "SwiftSpeech.ViewModifiers.OnRecognize",
+      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
@@ -11275,615 +12038,6 @@
       "line": 140,
       "symbol": "WebImageView.ImageBinder.cancel()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 17,
-      "symbol": "SwiftSpeech.ViewModifiers",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 18,
-      "symbol": "SwiftSpeech.Demos",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 21,
-      "symbol": "SwiftSpeech.defaultAnimation",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 25,
-      "symbol": "SwiftSpeech.requestSpeechRecognitionAuthorization()",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 46,
-      "symbol": "SpeechRecognitionAuthStatus",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 51,
-      "symbol": "SpeechRecognitionAuthStatus.wrappedValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 55,
-      "symbol": "SpeechRecognitionAuthStatus.init(trueValues:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 59,
-      "symbol": "SpeechRecognitionAuthStatus.projectedValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 83,
-      "symbol": "EnvironmentValues.swiftSpeechState",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 88,
-      "symbol": "EnvironmentValues.actionsOnStartRecording",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 93,
-      "symbol": "EnvironmentValues.actionsOnStopRecording",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 98,
-      "symbol": "EnvironmentValues.actionsOnCancelRecording",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 105,
-      "symbol": "View.onStartRecording(appendAction:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 112,
-      "symbol": "View.onStopRecording(appendAction:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 119,
-      "symbol": "View.onCancelRecording(appendAction:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 128,
-      "symbol": "View.onStartRecording(sendSessionTo:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 134,
-      "symbol": "View.onStartRecording(sendSessionTo:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 140,
-      "symbol": "View.onStopRecording(sendSessionTo:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 146,
-      "symbol": "View.onStopRecording(sendSessionTo:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 152,
-      "symbol": "View.onCancelRecording(sendSessionTo:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 158,
-      "symbol": "View.onCancelRecording(sendSessionTo:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 166,
-      "symbol": "View.swiftSpeechRecordOnHold(sessionConfiguration:animation:distanceToCancel:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 180,
-      "symbol": "View.swiftSpeechRecordOnHold(locale:animation:distanceToCancel:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 188,
-      "symbol": "View.swiftSpeechToggleRecordingOnTap(sessionConfiguration:animation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 195,
-      "symbol": "View.swiftSpeechToggleRecordingOnTap(locale:animation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 202,
-      "symbol": "View.onRecognize(includePartialResults:handleResult:handleError:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 217,
-      "symbol": "View.onRecognizeLatest(includePartialResults:handleResult:handleError:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 232,
-      "symbol": "View.onRecognizeLatest(includePartialResults:handleResult:handleError:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 244,
-      "symbol": "View.onRecognizeLatest(includePartialResults:update:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 253,
-      "symbol": "View.printRecognizedText(includePartialResults:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 263,
-      "symbol": "Subject.mapResolved(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 273,
-      "symbol": "Subject.mapResolved(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 285,
-      "symbol": "SwiftSpeech.supportedLocales()",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 291,
-      "symbol": "SwiftSpeech.State",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 292,
-      "symbol": "SwiftSpeech.State.pending",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 293,
-      "symbol": "SwiftSpeech.State.recording",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 294,
-      "symbol": "SwiftSpeech.State.cancelling",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 299,
-      "symbol": "SwiftSpeech.RecordButton",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 303,
-      "symbol": "SwiftSpeech.RecordButton.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 351,
-      "symbol": "SwiftSpeech.Session",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 354,
-      "symbol": "SwiftSpeech.Session.subscript(dynamicMember:)",
-      "symbol_kind": "source.lang.swift.decl.function.subscript",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 358,
-      "symbol": "SwiftSpeech.Session.init(id:configuration:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 363,
-      "symbol": "SwiftSpeech.Session.init(id:locale:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 367,
-      "symbol": "SwiftSpeech.Session.startRecording()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 372,
-      "symbol": "SwiftSpeech.Session.stopRecording()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 377,
-      "symbol": "SwiftSpeech.Session.cancel()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 384,
-      "symbol": "SwiftSpeech.Session",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 385,
-      "symbol": "SwiftSpeech.Session.Configuration",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 386,
-      "symbol": "SwiftSpeech.Session.Configuration.locale",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 388,
-      "symbol": "SwiftSpeech.Session.Configuration.taskHint",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 390,
-      "symbol": "SwiftSpeech.Session.Configuration.shouldReportPartialResults",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 392,
-      "symbol": "SwiftSpeech.Session.Configuration.requiresOnDeviceRecognition",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 394,
-      "symbol": "SwiftSpeech.Session.Configuration.contextualStrings",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 396,
-      "symbol": "SwiftSpeech.Session.Configuration.interactionIdentifier",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 398,
-      "symbol": "SwiftSpeech.Session.Configuration.audioSessionConfiguration",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 400,
-      "symbol": "SwiftSpeech.Session.Configuration.init(locale:taskHint:shouldReportPartialResults:requiresOnDeviceRecognition:contextualStrings:interactionIdentifier:audioSessionConfiguration:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 420,
-      "symbol": "SwiftSpeech.Session",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 421,
-      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 422,
-      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.onStartRecording",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 423,
-      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.onStopRecording",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 425,
-      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.init(onStartRecording:onStopRecording:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 430,
-      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.recordOnly",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 437,
-      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.playAndRecord",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 442,
-      "symbol": "SwiftSpeech.Session.AudioSessionConfiguration.none",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 446,
-      "symbol": "SpeechRecognizer",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 449,
-      "symbol": "SpeechRecognizer.ID",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 453,
-      "symbol": "SpeechRecognizer.sessionConfiguration",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 465,
-      "symbol": "SpeechRecognizer.resultPublisher",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 469,
-      "symbol": "SpeechRecognizer.stringPublisher",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 475,
-      "symbol": "SpeechRecognizer.startRecording()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 525,
-      "symbol": "SpeechRecognizer.stopRecording()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 539,
-      "symbol": "SpeechRecognizer.cancel()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 553,
-      "symbol": "SpeechRecognizer.new(id:sessionConfiguration:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 559,
-      "symbol": "SpeechRecognizer.recognizer(withID:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 564,
-      "symbol": "SpeechRecognizer.remove(id:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 579,
-      "symbol": "SwiftSpeech.FunctionalComponentDelegate",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 584,
-      "symbol": "SwiftSpeech.FunctionalComponentDelegate.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 592,
-      "symbol": "SwiftSpeech.FunctionalComponentDelegate.onStartRecording(session:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 598,
-      "symbol": "SwiftSpeech.FunctionalComponentDelegate.onStopRecording(session:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 604,
-      "symbol": "SwiftSpeech.FunctionalComponentDelegate.onCancelRecording(session:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 613,
-      "symbol": "SwiftSpeech.ViewModifiers",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 614,
-      "symbol": "SwiftSpeech.ViewModifiers.RecordOnHold",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 615,
-      "symbol": "SwiftSpeech.ViewModifiers.RecordOnHold.init(sessionConfiguration:animation:distanceToCancel:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 692,
-      "symbol": "SwiftSpeech.ViewModifiers.ToggleRecordingOnTap",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 693,
-      "symbol": "SwiftSpeech.ViewModifiers.ToggleRecordingOnTap.init(sessionConfiguration:animation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 747,
-      "symbol": "SwiftSpeech.ViewModifiers",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWSwiftUI/Service/SwiftSpeech.swift",
-      "line": 748,
-      "symbol": "SwiftSpeech.ViewModifiers.OnRecognize",
-      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
@@ -23727,167 +23881,6 @@
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioPlayer.swift",
       "line": 397,
       "symbol": "AudioPlayer.observeValue(forKeyPath:of:change:context:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 20,
-      "symbol": "AudioRecorder.RecordBackState.isRecording",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 21,
-      "symbol": "AudioRecorder.RecordBackState.currentPosition",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 22,
-      "symbol": "AudioRecorder.RecordBackState.currentMetering",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 24,
-      "symbol": "AudioRecorder.RecordBackState.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 29,
-      "symbol": "AudioRecorder.PlayBackState.isMuted",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 30,
-      "symbol": "AudioRecorder.PlayBackState.currentPosition",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 31,
-      "symbol": "AudioRecorder.PlayBackState.duration",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 32,
-      "symbol": "AudioRecorder.PlayBackState.isFinished",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 34,
-      "symbol": "AudioRecorder.PlayBackState.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 39,
-      "symbol": "AudioRecorder.AudioSettings.sampleRate",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 40,
-      "symbol": "AudioRecorder.AudioSettings.formatID",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 41,
-      "symbol": "AudioRecorder.AudioSettings.mode",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 42,
-      "symbol": "AudioRecorder.AudioSettings.numberOfChannels",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 43,
-      "symbol": "AudioRecorder.AudioSettings.encoderAudioQuality",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 44,
-      "symbol": "AudioRecorder.AudioSettings.encoderBitRate",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 45,
-      "symbol": "AudioRecorder.AudioSettings.linearPCMBitDepth",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 46,
-      "symbol": "AudioRecorder.AudioSettings.linearPCMIsBigEndian",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 47,
-      "symbol": "AudioRecorder.AudioSettings.linearPCMIsFloat",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 48,
-      "symbol": "AudioRecorder.AudioSettings.linearPCMIsNonInterleaved",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 50,
-      "symbol": "AudioRecorder.AudioSettings.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 88,
-      "symbol": "AudioRecorder.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 345,
-      "symbol": "AudioRecorder.audioRecorderDidFinishRecording(_:successfully:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWUIKit/Service/Media/AudioRecorder.swift",
-      "line": 353,
-      "symbol": "AudioRecorder.audioRecorderEncodeErrorDidOccur(_:error:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
