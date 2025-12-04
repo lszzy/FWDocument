@@ -17,7 +17,7 @@
     <a title="Session Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FWFramework 9.3.0 Docs</a> (62% documented)</p>
+        <p><a href="../index.html">FWFramework 9.4.0 Docs</a> (63% documented)</p>
         <p class="header-right"><a href="https://github.com/lszzy/FWFramework"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -588,6 +588,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/PagingView.html">PagingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaletteManager.html">PaletteManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaletteTheme.html">PaletteTheme</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/PanGestureRecognizer.html">PanGestureRecognizer</a>
@@ -2478,6 +2484,9 @@
                 <a href="../Structs.html#/s:11FWFramework15PageControlTypeV">PageControlType</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/PaletteStyle.html">PaletteStyle</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/PickerWithSegmentedStyleType.html">PickerWithSegmentedStyleType</a>
               </li>
               <li class="nav-group-task">
@@ -2803,9 +2812,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9Alamofire7SessionC11FWFrameworkE18eventSourceRequest_6method7headers11lastEventIDAA010DataStreamF0CAA14URLConvertible_p_AA10HTTPMethodVAA11HTTPHeadersVSgSSSgtF"></a>
-                    <a name="//apple_ref/swift/Method/eventSourceRequest(_:method:headers:lastEventID:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9Alamofire7SessionC11FWFrameworkE18eventSourceRequest_6method7headers11lastEventIDAA010DataStreamF0CAA14URLConvertible_p_AA10HTTPMethodVAA11HTTPHeadersVSgSSSgtF">eventSourceRequest(_:<wbr>method:<wbr>headers:<wbr>lastEventID:<wbr>)</a>
+                    <a name="/s:9Alamofire7SessionC11FWFrameworkE18eventSourceRequest_6method7headers11lastEventID15requestModifierAA010DataStreamF0CAA14URLConvertible_p_AA10HTTPMethodVAA11HTTPHeadersVSgSSSgy10Foundation10URLRequestVzYbKcSgtF"></a>
+                    <a name="//apple_ref/swift/Method/eventSourceRequest(_:method:headers:lastEventID:requestModifier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Alamofire7SessionC11FWFrameworkE18eventSourceRequest_6method7headers11lastEventID15requestModifierAA010DataStreamF0CAA14URLConvertible_p_AA10HTTPMethodVAA11HTTPHeadersVSgSSSgy10Foundation10URLRequestVzYbKcSgtF">eventSourceRequest(_:<wbr>method:<wbr>headers:<wbr>lastEventID:<wbr>requestModifier:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2824,7 +2833,43 @@
     <span class="n">_</span> <span class="nv">convertible</span><span class="p">:</span> <span class="kt">URLConvertible</span><span class="p">,</span>
     <span class="nv">method</span><span class="p">:</span> <span class="kt">HTTPMethod</span> <span class="o">=</span> <span class="o">.</span><span class="k">get</span><span class="p">,</span>
     <span class="nv">headers</span><span class="p">:</span> <span class="kt">HTTPHeaders</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
-    <span class="nv">lastEventID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+    <span class="nv">lastEventID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">requestModifier</span><span class="p">:</span> <span class="kt">RequestModifier</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">DataStreamRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Alamofire7SessionC11FWFrameworkE18eventSourceRequest_6method10parameters7encoder7headers11lastEventID15requestModifierAA010DataStreamF0CAA14URLConvertible_p_AA10HTTPMethodVxSgAA16ParameterEncoder_pAA11HTTPHeadersVSgSSSgy10Foundation10URLRequestVzYbKcSgtSERzs8SendableRzlF"></a>
+                    <a name="//apple_ref/swift/Method/eventSourceRequest(_:method:parameters:encoder:headers:lastEventID:requestModifier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Alamofire7SessionC11FWFrameworkE18eventSourceRequest_6method10parameters7encoder7headers11lastEventID15requestModifierAA010DataStreamF0CAA14URLConvertible_p_AA10HTTPMethodVxSgAA16ParameterEncoder_pAA11HTTPHeadersVSgSSSgy10Foundation10URLRequestVzYbKcSgtSERzs8SendableRzlF">eventSourceRequest(_:<wbr>method:<wbr>parameters:<wbr>encoder:<wbr>headers:<wbr>lastEventID:<wbr>requestModifier:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">eventSourceRequest</span><span class="o">&lt;</span><span class="kt">Parameters</span><span class="p">:</span> <span class="kt">Encodable</span> <span class="o">&amp;</span> <span class="kt">Sendable</span><span class="o">&gt;</span><span class="p">(</span>
+    <span class="n">_</span> <span class="nv">convertible</span><span class="p">:</span> <span class="kt">URLConvertible</span><span class="p">,</span>
+    <span class="nv">method</span><span class="p">:</span> <span class="kt">HTTPMethod</span> <span class="o">=</span> <span class="o">.</span><span class="k">get</span><span class="p">,</span>
+    <span class="nv">parameters</span><span class="p">:</span> <span class="kt">Parameters</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">encoder</span><span class="p">:</span> <span class="kd">any</span> <span class="kt">ParameterEncoder</span> <span class="o">=</span> <span class="kt">URLEncodedFormParameterEncoder</span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">headers</span><span class="p">:</span> <span class="kt">HTTPHeaders</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">lastEventID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">requestModifier</span><span class="p">:</span> <span class="kt">RequestModifier</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">DataStreamRequest</span></code></pre>
 
                         </div>
@@ -2837,7 +2882,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="http://wuyong.site" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-09-19)</p>
+          <p>&copy; 2025 <a class="link" href="http://fwframework.wuchenxi.vip" target="_blank" rel="external noopener">Wu Yong</a>. All rights reserved. (Last updated: 2025-12-05)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
