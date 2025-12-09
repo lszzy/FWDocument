@@ -1360,21 +1360,21 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/View/DynamicLayout.swift",
-      "line": 770,
+      "line": 778,
       "symbol": "HeaderFooterViewType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/View/DynamicLayout.swift",
-      "line": 771,
+      "line": 779,
       "symbol": "HeaderFooterViewType.header",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Module/View/DynamicLayout.swift",
-      "line": 772,
+      "line": 780,
       "symbol": "HeaderFooterViewType.footer",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -8752,7 +8752,7 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit/Palette.swift",
-      "line": 171,
+      "line": 182,
       "symbol": "PaletteStyle.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -8955,7 +8955,7 @@
     },
     {
       "file": "/Volumes/Data/Work/Github/lszzy/FWFramework/Sources/FWFramework/Toolkit/Toolkit/UIKit.swift",
-      "line": 3304,
+      "line": 3350,
       "symbol": "ViewStyle.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
